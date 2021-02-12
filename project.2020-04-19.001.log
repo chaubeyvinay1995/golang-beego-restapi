@@ -1,0 +1,565 @@
+2020/04/12 00:00:19.450 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 00:00:24.065 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m| 337.686576ms|   match|[97;46m POST    [0m /v1/user/preferences   r:/v1/user/preferences/
+2020/04/12 00:02:45.175 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 00:02:57.170 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m| 142.131228ms|   match|[97;46m POST    [0m /v1/user/preferences   r:/v1/user/preferences/
+2020/04/12 00:04:54.889 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 00:04:56.114 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|  81.933044ms|   match|[97;46m POST    [0m /v1/user/preferences   r:/v1/user/preferences/
+2020/04/12 00:20:02.399 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 00:20:07.354 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 00:20:23.772 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|  138.12809ms|   match|[97;46m POST    [0m /v1/user/preferences   r:/v1/user/preferences/
+2020/04/12 00:22:03.788 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 00:22:09.558 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 00:22:11.569 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m| 133.841181ms|   match|[97;46m POST    [0m /v1/user/preferences   r:/v1/user/preferences/
+2020/04/12 00:22:14.796 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 00:53:14.983 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 00:53:25.392 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 00:53:26.227 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|  17.898257ms|   match|[97;46m POST    [0m /v1/user/preferences   r:/v1/user/preferences/
+2020/04/12 00:53:30.104 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   1.185473ms|   match|[97;46m POST    [0m /v1/user/preferences   r:/v1/user/preferences/
+2020/04/12 00:54:11.814 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 00:54:13.641 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   2.360033ms|   match|[97;46m POST    [0m /v1/user/preferences   r:/v1/user/preferences/
+2020/04/12 00:55:25.416 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 00:56:09.208 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 00:56:12.607 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 00:56:15.192 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m| 466.253883ms|   match|[97;46m POST    [0m /v1/user/preferences   r:/v1/user/preferences/
+2020/04/12 00:58:17.292 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 00:58:30.210 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 00:58:31.629 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m| 410.810083ms|   match|[97;46m POST    [0m /v1/user/preferences   r:/v1/user/preferences/
+2020/04/12 00:58:53.318 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|  202.33889ms|   match|[97;46m POST    [0m /v1/user/preferences   r:/v1/user/preferences/
+2020/04/12 00:58:57.107 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 00:59:00.458 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m| 470.848014ms|   match|[97;46m POST    [0m /v1/user/preferences   r:/v1/user/preferences/
+2020/04/12 00:59:02.871 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m| 230.285971ms|   match|[97;46m POST    [0m /v1/user/preferences   r:/v1/user/preferences/
+2020/04/12 00:59:04.414 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m| 228.884804ms|   match|[97;46m POST    [0m /v1/user/preferences   r:/v1/user/preferences/
+2020/04/12 00:59:05.847 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|  181.57074ms|   match|[97;46m POST    [0m /v1/user/preferences   r:/v1/user/preferences/
+2020/04/12 00:59:06.659 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m| 130.063641ms|   match|[97;46m POST    [0m /v1/user/preferences   r:/v1/user/preferences/
+2020/04/12 00:59:07.315 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|  115.38134ms|   match|[97;46m POST    [0m /v1/user/preferences   r:/v1/user/preferences/
+2020/04/12 00:59:07.993 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m| 138.233443ms|   match|[97;46m POST    [0m /v1/user/preferences   r:/v1/user/preferences/
+2020/04/12 00:59:08.682 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m| 126.849637ms|   match|[97;46m POST    [0m /v1/user/preferences   r:/v1/user/preferences/
+2020/04/12 00:59:09.371 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m| 130.954913ms|   match|[97;46m POST    [0m /v1/user/preferences   r:/v1/user/preferences/
+2020/04/12 00:59:10.093 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m| 138.826432ms|   match|[97;46m POST    [0m /v1/user/preferences   r:/v1/user/preferences/
+2020/04/12 00:59:10.760 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m| 147.322637ms|   match|[97;46m POST    [0m /v1/user/preferences   r:/v1/user/preferences/
+2020/04/12 00:59:11.416 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m| 141.301715ms|   match|[97;46m POST    [0m /v1/user/preferences   r:/v1/user/preferences/
+2020/04/12 00:59:12.089 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m| 153.458776ms|   match|[97;46m POST    [0m /v1/user/preferences   r:/v1/user/preferences/
+2020/04/12 00:59:12.698 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m| 122.978397ms|   match|[97;46m POST    [0m /v1/user/preferences   r:/v1/user/preferences/
+2020/04/12 00:59:13.323 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m| 144.072915ms|   match|[97;46m POST    [0m /v1/user/preferences   r:/v1/user/preferences/
+2020/04/12 00:59:13.988 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m| 195.890617ms|   match|[97;46m POST    [0m /v1/user/preferences   r:/v1/user/preferences/
+2020/04/12 00:59:14.843 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|  148.00436ms|   match|[97;46m POST    [0m /v1/user/preferences   r:/v1/user/preferences/
+2020/04/12 00:59:15.510 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m| 115.846911ms|   match|[97;46m POST    [0m /v1/user/preferences   r:/v1/user/preferences/
+2020/04/12 00:59:16.143 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m| 138.766493ms|   match|[97;46m POST    [0m /v1/user/preferences   r:/v1/user/preferences/
+2020/04/12 00:59:16.717 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m| 174.594801ms|   match|[97;46m POST    [0m /v1/user/preferences   r:/v1/user/preferences/
+2020/04/12 01:00:15.955 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 01:00:48.173 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m| 309.171832ms|   match|[97;46m POST    [0m /v1/user/preferences   r:/v1/user/preferences/
+2020/04/12 01:01:34.022 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 01:01:41.954 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 01:01:44.495 [C] [panic.go:679]  the request url is  /v1/user/preferences
+2020/04/12 01:01:44.495 [C] [panic.go:679]  Handler crashed with error <Ormer> cannot find field `Users` for model `domio-api/models.User`
+2020/04/12 01:01:44.495 [C] [panic.go:679]  /usr/local/go/src/runtime/panic.go:679
+2020/04/12 01:01:44.495 [C] [panic.go:679]  /home/vinay/go/src/github.com/astaxie/beego/orm/orm.go:121
+2020/04/12 01:01:44.495 [C] [panic.go:679]  /home/vinay/go/src/github.com/astaxie/beego/orm/orm.go:353
+2020/04/12 01:01:44.495 [C] [panic.go:679]  /home/vinay/go/src/github.com/astaxie/beego/orm/orm.go:278
+2020/04/12 01:01:44.496 [C] [panic.go:679]  /home/vinay/go/src/domio-api/models/user.go:267
+2020/04/12 01:01:44.496 [C] [panic.go:679]  /home/vinay/go/src/domio-api/controllers/userprefrences.go:57
+2020/04/12 01:01:44.496 [C] [panic.go:679]  /usr/local/go/src/reflect/value.go:460
+2020/04/12 01:01:44.496 [C] [panic.go:679]  /usr/local/go/src/reflect/value.go:321
+2020/04/12 01:01:44.496 [C] [panic.go:679]  /home/vinay/go/src/github.com/astaxie/beego/router.go:853
+2020/04/12 01:01:44.496 [C] [panic.go:679]  /usr/local/go/src/net/http/server.go:2802
+2020/04/12 01:01:44.496 [C] [panic.go:679]  /usr/local/go/src/net/http/server.go:1890
+2020/04/12 01:01:44.496 [C] [panic.go:679]  /usr/local/go/src/runtime/asm_amd64.s:1357
+2020/04/12 01:01:44.496 [server.go:3053]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2020/04/12 01:02:27.079 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 01:04:56.908 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|  25.795271ms|   match|[97;44m GET     [0m /v1/user   r:/v1/user/
+2020/04/12 01:05:42.505 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 01:06:16.273 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 01:06:19.339 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|  84.005947ms|   match|[97;44m GET     [0m /v1/user   r:/v1/user/
+2020/04/12 01:06:24.729 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|    1.51629ms|   match|[97;44m GET     [0m /v1/user   r:/v1/user/
+2020/04/12 01:06:25.735 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   1.331643ms|   match|[97;44m GET     [0m /v1/user   r:/v1/user/
+2020/04/12 01:06:26.429 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   1.361487ms|   match|[97;44m GET     [0m /v1/user   r:/v1/user/
+2020/04/12 01:06:27.129 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|    1.37663ms|   match|[97;44m GET     [0m /v1/user   r:/v1/user/
+2020/04/12 01:06:27.760 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   1.341907ms|   match|[97;44m GET     [0m /v1/user   r:/v1/user/
+2020/04/12 01:06:28.364 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   1.269457ms|   match|[97;44m GET     [0m /v1/user   r:/v1/user/
+2020/04/12 01:06:29.037 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   1.601158ms|   match|[97;44m GET     [0m /v1/user   r:/v1/user/
+2020/04/12 01:06:29.452 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   1.434062ms|   match|[97;44m GET     [0m /v1/user   r:/v1/user/
+2020/04/12 01:06:30.632 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   1.569656ms|   match|[97;44m GET     [0m /v1/user   r:/v1/user/
+2020/04/12 01:06:31.567 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|    1.29224ms|   match|[97;44m GET     [0m /v1/user   r:/v1/user/
+2020/04/12 01:06:32.294 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   1.395978ms|   match|[97;44m GET     [0m /v1/user   r:/v1/user/
+2020/04/12 01:06:33.020 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   1.932704ms|   match|[97;44m GET     [0m /v1/user   r:/v1/user/
+2020/04/12 01:06:34.393 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   1.723669ms|   match|[97;44m GET     [0m /v1/user   r:/v1/user/
+2020/04/12 01:06:35.149 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   2.196503ms|   match|[97;44m GET     [0m /v1/user   r:/v1/user/
+2020/04/12 01:07:05.131 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 01:07:08.842 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|  67.066594ms|   match|[97;46m POST    [0m /v1/login   r:/v1/login/
+2020/04/12 01:07:21.388 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   2.505392ms|   match|[97;44m GET     [0m /v1/user   r:/v1/user/
+2020/04/12 01:08:28.528 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   2.295449ms|   match|[97;44m GET     [0m /v1/user   r:/v1/user/
+2020/04/12 01:08:30.364 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|  69.351461ms|   match|[97;44m GET     [0m /v1/user   r:/v1/user/
+2020/04/12 01:08:31.061 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|  38.019188ms|   match|[97;44m GET     [0m /v1/user   r:/v1/user/
+2020/04/12 01:10:57.727 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   2.312599ms|   match|[97;44m GET     [0m /v1/user   r:/v1/user/
+2020/04/12 01:11:01.569 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   1.367322ms|   match|[97;46m POST    [0m /v1/login   r:/v1/login/
+2020/04/12 01:17:25.216 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m| 867.232149ms|   match|[97;46m POST    [0m /v1/user/preferences   r:/v1/user/preferences/
+2020/04/12 01:23:34.390 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 01:23:58.474 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 01:24:07.360 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 01:28:29.153 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 01:28:34.231 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m| 194.946693ms|   match|[97;46m POST    [0m /v1/user/preferences   r:/v1/user/preferences/
+2020/04/12 01:29:26.988 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 01:29:29.142 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   2.264533ms|   match|[97;46m POST    [0m /v1/user/preferences   r:/v1/user/preferences/
+2020/04/12 01:32:32.115 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|     894.94µs|   match|[97;46m POST    [0m /v1/user/preferences   r:/v1/user/preferences/
+2020/04/12 01:32:38.310 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 01:37:26.243 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 01:37:27.485 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|  19.336966ms|   match|[97;46m POST    [0m /v1/user/preferences   r:/v1/user/preferences/
+2020/04/12 01:37:42.462 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|    689.176µs|   match|[97;46m POST    [0m /v1/user/preferences   r:/v1/user/preferences/
+2020/04/12 01:38:01.238 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|    755.501µs|   match|[97;46m POST    [0m /v1/user/preferences   r:/v1/user/preferences/
+2020/04/12 01:38:54.838 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 17:04:07.919 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 17:04:18.302 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 17:05:51.766 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m| 189.390744ms|   match|[97;46m POST    [0m /v1/user/preferences   r:/v1/user/preferences/
+2020/04/12 17:06:10.453 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|    683.748µs|   match|[97;46m POST    [0m /v1/user/preferences   r:/v1/user/preferences/
+2020/04/12 17:06:17.583 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   4.071708ms|   match|[97;44m GET     [0m /v1/user   r:/v1/user/
+2020/04/12 17:06:31.087 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m| 337.566004ms|   match|[97;46m POST    [0m /v1/signup   r:/v1/signup/
+2020/04/12 17:06:55.610 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|    684.858µs|   match|[97;46m POST    [0m /v1/user/preferences   r:/v1/user/preferences/
+2020/04/12 17:08:23.239 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 17:08:26.671 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   1.166255ms|   match|[97;46m POST    [0m /v1/signup   r:/v1/signup/
+2020/04/12 17:09:13.728 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m| 234.042439ms|   match|[97;46m POST    [0m /v1/signup   r:/v1/signup/
+2020/04/12 17:10:00.559 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 17:10:19.961 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   3.163386ms|   match|[97;44m GET     [0m /v1/user   r:/v1/user/
+2020/04/12 17:11:15.027 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 17:11:23.400 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m| 333.508597ms|   match|[97;46m POST    [0m /v1/signup   r:/v1/signup/
+2020/04/12 17:13:16.601 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 17:13:22.462 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m| 178.536176ms|   match|[97;46m POST    [0m /v1/signup   r:/v1/signup/
+2020/04/12 17:13:52.120 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 17:15:41.980 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 17:15:50.006 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 17:16:17.040 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|  230.12419ms|   match|[97;46m POST    [0m /v1/signup   r:/v1/signup/
+2020/04/12 17:16:34.462 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   2.379051ms|   match|[97;46m POST    [0m /v1/login   r:/v1/login/
+2020/04/12 17:17:00.280 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   1.253745ms|   match|[97;46m POST    [0m /v1/user/preferences   r:/v1/user/preferences/
+2020/04/12 17:19:18.346 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 17:22:16.227 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 17:25:09.627 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 17:25:18.945 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m| 110.430711ms|   match|[97;46m POST    [0m /v1/user/preferences   r:/v1/user/preferences/
+2020/04/12 17:25:34.799 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|  57.350954ms|   match|[97;46m POST    [0m /v1/user/preferences   r:/v1/user/preferences/
+2020/04/12 17:25:42.298 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   2.134583ms|   match|[97;46m POST    [0m /v1/login   r:/v1/login/
+2020/04/12 17:25:53.693 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   1.335325ms|   match|[97;46m POST    [0m /v1/login   r:/v1/login/
+2020/04/12 17:25:57.229 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   1.352871ms|   match|[97;46m POST    [0m /v1/login   r:/v1/login/
+2020/04/12 17:25:58.201 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   1.769502ms|   match|[97;46m POST    [0m /v1/login   r:/v1/login/
+2020/04/12 17:26:18.512 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|  90.391045ms|   match|[97;46m POST    [0m /v1/user/preferences   r:/v1/user/preferences/
+2020/04/12 17:26:22.777 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   1.275202ms|   match|[97;46m POST    [0m /v1/login   r:/v1/login/
+2020/04/12 17:26:25.812 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   1.629155ms|   match|[97;46m POST    [0m /v1/login   r:/v1/login/
+2020/04/12 17:27:00.887 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   1.367394ms|   match|[97;46m POST    [0m /v1/login   r:/v1/login/
+2020/04/12 17:27:04.515 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   2.087135ms|   match|[97;44m GET     [0m /v1/user   r:/v1/user/
+2020/04/12 17:27:58.136 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 17:28:54.598 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   2.714005ms|   match|[97;46m POST    [0m /v1/login   r:/v1/login/
+2020/04/12 17:28:57.100 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   1.774431ms|   match|[97;46m POST    [0m /v1/login   r:/v1/login/
+2020/04/12 17:28:58.246 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   1.370809ms|   match|[97;46m POST    [0m /v1/login   r:/v1/login/
+2020/04/12 17:28:59.013 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   1.418786ms|   match|[97;46m POST    [0m /v1/login   r:/v1/login/
+2020/04/12 17:30:02.937 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 17:30:09.570 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 17:30:18.608 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m| 202.255827ms|   match|[97;46m POST    [0m /v1/user/preferences   r:/v1/user/preferences/
+2020/04/12 17:30:37.416 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 17:30:48.311 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 17:31:11.048 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 17:33:02.005 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 17:34:06.574 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 17:34:09.403 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 17:34:12.165 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 17:34:18.467 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 17:34:22.858 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 17:34:26.119 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 17:34:55.382 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 17:35:11.419 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 17:35:14.122 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 17:39:32.805 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 17:39:35.359 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 17:40:06.484 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m| 673.667164ms|   match|[97;44m GET     [0m /v1/user/preferences   r:/v1/user/preferences/
+2020/04/12 17:40:56.737 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 17:41:23.590 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 17:41:30.614 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 17:41:34.018 [C] [panic.go:679]  the request url is  /v1/user/preferences
+2020/04/12 17:41:34.018 [C] [panic.go:679]  Handler crashed with error wrong object type `*[]*models.Preference` for rows scan, need *[]*domio-api/models.OnBoardingImage or *[]domio-api/models.OnBoardingImage
+2020/04/12 17:41:34.019 [C] [panic.go:679]  /usr/local/go/src/runtime/panic.go:679
+2020/04/12 17:41:34.019 [C] [panic.go:679]  /home/vinay/go/src/github.com/astaxie/beego/orm/db.go:943
+2020/04/12 17:41:34.019 [C] [panic.go:679]  /home/vinay/go/src/github.com/astaxie/beego/orm/orm_queryset.go:213
+2020/04/12 17:41:34.019 [C] [panic.go:679]  /home/vinay/go/src/domio-api/models/user.go:297
+2020/04/12 17:41:34.019 [C] [panic.go:679]  /home/vinay/go/src/domio-api/controllers/userprefrences.go:84
+2020/04/12 17:41:34.019 [C] [panic.go:679]  /usr/local/go/src/reflect/value.go:460
+2020/04/12 17:41:34.019 [C] [panic.go:679]  /usr/local/go/src/reflect/value.go:321
+2020/04/12 17:41:34.019 [C] [panic.go:679]  /home/vinay/go/src/github.com/astaxie/beego/router.go:853
+2020/04/12 17:41:34.019 [C] [panic.go:679]  /usr/local/go/src/net/http/server.go:2802
+2020/04/12 17:41:34.019 [C] [panic.go:679]  /usr/local/go/src/net/http/server.go:1890
+2020/04/12 17:41:34.019 [C] [panic.go:679]  /usr/local/go/src/runtime/asm_amd64.s:1357
+2020/04/12 17:41:34.020 [server.go:3053]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2020/04/12 17:42:04.635 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 17:42:05.699 [C] [panic.go:679]  the request url is  /v1/user/preferences
+2020/04/12 17:42:05.699 [C] [panic.go:679]  Handler crashed with error <Ormer.QueryTable> table name: `preferences` not exists
+2020/04/12 17:42:05.699 [C] [panic.go:679]  /usr/local/go/src/runtime/panic.go:679
+2020/04/12 17:42:05.699 [C] [panic.go:679]  /home/vinay/go/src/github.com/astaxie/beego/orm/orm.go:440
+2020/04/12 17:42:05.699 [C] [panic.go:679]  /home/vinay/go/src/domio-api/models/user.go:296
+2020/04/12 17:42:05.699 [C] [panic.go:679]  /home/vinay/go/src/domio-api/controllers/userprefrences.go:84
+2020/04/12 17:42:05.699 [C] [panic.go:679]  /usr/local/go/src/reflect/value.go:460
+2020/04/12 17:42:05.699 [C] [panic.go:679]  /usr/local/go/src/reflect/value.go:321
+2020/04/12 17:42:05.699 [C] [panic.go:679]  /home/vinay/go/src/github.com/astaxie/beego/router.go:853
+2020/04/12 17:42:05.699 [C] [panic.go:679]  /usr/local/go/src/net/http/server.go:2802
+2020/04/12 17:42:05.699 [C] [panic.go:679]  /usr/local/go/src/net/http/server.go:1890
+2020/04/12 17:42:05.700 [C] [panic.go:679]  /usr/local/go/src/runtime/asm_amd64.s:1357
+2020/04/12 17:42:05.700 [server.go:3053]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2020/04/12 17:42:06.774 [C] [panic.go:679]  the request url is  /v1/user/preferences
+2020/04/12 17:42:06.774 [C] [panic.go:679]  Handler crashed with error <Ormer.QueryTable> table name: `preferences` not exists
+2020/04/12 17:42:06.774 [C] [panic.go:679]  /usr/local/go/src/runtime/panic.go:679
+2020/04/12 17:42:06.774 [C] [panic.go:679]  /home/vinay/go/src/github.com/astaxie/beego/orm/orm.go:440
+2020/04/12 17:42:06.774 [C] [panic.go:679]  /home/vinay/go/src/domio-api/models/user.go:296
+2020/04/12 17:42:06.774 [C] [panic.go:679]  /home/vinay/go/src/domio-api/controllers/userprefrences.go:84
+2020/04/12 17:42:06.774 [C] [panic.go:679]  /usr/local/go/src/reflect/value.go:460
+2020/04/12 17:42:06.774 [C] [panic.go:679]  /usr/local/go/src/reflect/value.go:321
+2020/04/12 17:42:06.774 [C] [panic.go:679]  /home/vinay/go/src/github.com/astaxie/beego/router.go:853
+2020/04/12 17:42:06.774 [C] [panic.go:679]  /usr/local/go/src/net/http/server.go:2802
+2020/04/12 17:42:06.774 [C] [panic.go:679]  /usr/local/go/src/net/http/server.go:1890
+2020/04/12 17:42:06.775 [C] [panic.go:679]  /usr/local/go/src/runtime/asm_amd64.s:1357
+2020/04/12 17:42:06.775 [server.go:3053]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2020/04/12 17:42:19.168 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 17:42:32.362 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 17:42:38.196 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|  71.597708ms|   match|[97;44m GET     [0m /v1/user/preferences   r:/v1/user/preferences/
+2020/04/12 17:43:30.622 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   1.296499ms|   match|[97;44m GET     [0m /v1/user/preferences   r:/v1/user/preferences/
+2020/04/12 17:43:32.051 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   1.134411ms|   match|[97;44m GET     [0m /v1/user/preferences   r:/v1/user/preferences/
+2020/04/12 17:43:33.158 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   1.217166ms|   match|[97;44m GET     [0m /v1/user/preferences   r:/v1/user/preferences/
+2020/04/12 17:43:33.250 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 17:43:33.994 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   2.085717ms|   match|[97;44m GET     [0m /v1/user/preferences   r:/v1/user/preferences/
+2020/04/12 17:43:35.852 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|    997.874µs|   match|[97;44m GET     [0m /v1/user/preferences   r:/v1/user/preferences/
+2020/04/12 17:43:36.720 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|    985.796µs|   match|[97;44m GET     [0m /v1/user/preferences   r:/v1/user/preferences/
+2020/04/12 17:44:04.161 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   1.635639ms|   match|[97;44m GET     [0m /v1/user/preferences   r:/v1/user/preferences/
+2020/04/12 17:44:04.758 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 17:44:06.985 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   2.476956ms|   match|[97;44m GET     [0m /v1/user/preferences   r:/v1/user/preferences/
+2020/04/12 17:44:08.016 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   1.271188ms|   match|[97;44m GET     [0m /v1/user/preferences   r:/v1/user/preferences/
+2020/04/12 17:44:35.249 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 17:44:36.868 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   1.730149ms|   match|[97;44m GET     [0m /v1/user/preferences   r:/v1/user/preferences/
+2020/04/12 17:44:38.174 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|    946.038µs|   match|[97;44m GET     [0m /v1/user/preferences   r:/v1/user/preferences/
+2020/04/12 17:45:11.931 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 17:45:14.152 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   1.828602ms|   match|[97;44m GET     [0m /v1/user/preferences   r:/v1/user/preferences/
+2020/04/12 17:45:16.855 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   1.215153ms|   match|[97;44m GET     [0m /v1/user/preferences   r:/v1/user/preferences/
+2020/04/12 17:48:11.421 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 17:48:14.250 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 17:51:27.298 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 17:52:09.684 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 17:52:27.963 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 17:53:50.096 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 17:59:01.658 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 17:59:23.219 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|  24.977654ms|   match|[97;41m DELETE  [0m /v1/user/preferences   r:/v1/user/preferences/
+2020/04/12 17:59:27.678 [D] [server.go:2802]  |            ::1|[97;43m 404 [0m|      386.3µs| nomatch|[97;41m DELETE  [0m /v1/user/preferences/24
+2020/04/12 17:59:28.778 [D] [server.go:2802]  |            ::1|[97;43m 404 [0m|    320.179µs| nomatch|[97;41m DELETE  [0m /v1/user/preferences/24
+2020/04/12 17:59:29.870 [D] [server.go:2802]  |            ::1|[97;43m 404 [0m|    281.102µs| nomatch|[97;41m DELETE  [0m /v1/user/preferences/24
+2020/04/12 17:59:30.825 [D] [server.go:2802]  |            ::1|[97;43m 404 [0m|    408.505µs| nomatch|[97;41m DELETE  [0m /v1/user/preferences/24
+2020/04/12 17:59:31.735 [D] [server.go:2802]  |            ::1|[97;43m 404 [0m|    213.679µs| nomatch|[97;41m DELETE  [0m /v1/user/preferences/24
+2020/04/12 17:59:32.427 [D] [server.go:2802]  |            ::1|[97;43m 404 [0m|    378.024µs| nomatch|[97;41m DELETE  [0m /v1/user/preferences/24
+2020/04/12 17:59:33.170 [D] [server.go:2802]  |            ::1|[97;43m 404 [0m|    267.725µs| nomatch|[97;41m DELETE  [0m /v1/user/preferences/24
+2020/04/12 17:59:33.800 [D] [server.go:2802]  |            ::1|[97;43m 404 [0m|    227.919µs| nomatch|[97;41m DELETE  [0m /v1/user/preferences/24
+2020/04/12 17:59:34.535 [D] [server.go:2802]  |            ::1|[97;43m 404 [0m|    211.457µs| nomatch|[97;41m DELETE  [0m /v1/user/preferences/24
+2020/04/12 18:02:09.366 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 18:02:12.821 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   1.570475ms|   match|[97;41m DELETE  [0m /v1/user/preferences/24   r:/v1/user/preferences/:id/
+2020/04/12 18:02:15.991 [D] [server.go:2802]  |            ::1|[97;43m 404 [0m|    235.947µs| nomatch|[97;44m GET     [0m /v1/user/preferences
+2020/04/12 18:02:17.063 [D] [server.go:2802]  |            ::1|[97;43m 404 [0m|     209.79µs| nomatch|[97;44m GET     [0m /v1/user/preferences
+2020/04/12 18:02:19.764 [D] [server.go:2802]  |            ::1|[97;43m 404 [0m|    230.673µs| nomatch|[97;44m GET     [0m /v1/user/preferences/
+2020/04/12 18:02:23.198 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   1.533673ms|   match|[97;44m GET     [0m /v1/user/preferences/25   r:/v1/user/preferences/:id/
+2020/04/12 18:02:32.542 [D] [server.go:2802]  |            ::1|[97;43m 404 [0m|    346.808µs| nomatch|[97;46m POST    [0m /v1/user/preferences
+2020/04/12 18:03:35.252 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 18:03:57.933 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 18:04:04.951 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 18:04:17.519 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 18:04:21.835 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 18:04:36.498 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 18:04:45.357 [D] [server.go:2802]  |            ::1|[97;43m 404 [0m|    480.115µs| nomatch|[97;46m POST    [0m /v1/user/preferences
+2020/04/12 18:04:53.697 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   1.668324ms|   match|[97;44m GET     [0m /v1/user/preferences   r:/v1/user/preferences/
+2020/04/12 18:05:14.429 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 18:06:17.170 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 18:06:29.694 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 18:06:48.963 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 18:07:42.562 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 18:07:48.759 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 18:09:51.713 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 18:10:04.551 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 18:10:10.861 [D] [server.go:2802]  |            ::1|[97;43m 404 [0m|    331.687µs| nomatch|[97;46m POST    [0m /v1/user/preferences
+2020/04/12 18:10:11.882 [D] [server.go:2802]  |            ::1|[97;43m 404 [0m|    372.158µs| nomatch|[97;46m POST    [0m /v1/user/preferences
+2020/04/12 18:10:12.599 [D] [server.go:2802]  |            ::1|[97;43m 404 [0m|    255.653µs| nomatch|[97;46m POST    [0m /v1/user/preferences
+2020/04/12 18:10:22.031 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m| 479.266393ms|   match|[97;46m POST    [0m /v1/user/preferences/5   r:/v1/user/preferences/:id([0-9]+)/
+2020/04/12 18:11:01.777 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 18:11:09.695 [D] [server.go:2802]  |            ::1|[97;43m 404 [0m|    454.028µs| nomatch|[97;46m POST    [0m /v1/user/preferences
+2020/04/12 18:14:53.706 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 18:14:56.526 [D] [server.go:2802]  |            ::1|[97;43m 404 [0m|    475.654µs| nomatch|[97;46m POST    [0m /v1/user/preferences
+2020/04/12 18:15:01.304 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|  80.711979ms|   match|[97;46m POST    [0m /user/preferences   r:/user/preferences/?:id
+2020/04/12 18:15:09.953 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|  76.249056ms|   match|[97;46m POST    [0m /user/preferences   r:/user/preferences/?:id
+2020/04/12 18:15:13.906 [D] [server.go:2802]  |            ::1|[97;43m 404 [0m|    192.533µs| nomatch|[97;44m GET     [0m /v1/user/preferences
+2020/04/12 18:15:15.021 [D] [server.go:2802]  |            ::1|[97;43m 404 [0m|    270.847µs| nomatch|[97;44m GET     [0m /v1/user/preferences
+2020/04/12 18:15:18.732 [D] [server.go:2802]  |            ::1|[97;43m 404 [0m|    268.275µs| nomatch|[97;44m GET     [0m /v1/user/preferences/77
+2020/04/12 18:15:19.796 [D] [server.go:2802]  |            ::1|[97;43m 404 [0m|    230.253µs| nomatch|[97;44m GET     [0m /v1/user/preferences/77
+2020/04/12 18:15:24.792 [D] [server.go:2802]  |            ::1|[97;43m 404 [0m|    223.485µs| nomatch|[97;41m DELETE  [0m /v1/user/preferences/24
+2020/04/12 18:15:25.715 [D] [server.go:2802]  |            ::1|[97;43m 404 [0m|    445.932µs| nomatch|[97;41m DELETE  [0m /v1/user/preferences/24
+2020/04/12 18:15:33.261 [D] [server.go:2802]  |            ::1|[97;43m 405 [0m|     63.859µs|   match|[97;41m DELETE  [0m /user/preferences/24   r:/user/preferences/?:id
+2020/04/12 18:16:09.635 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 18:16:10.818 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m| 119.598254ms|   match|[97;46m POST    [0m /user/preferences   r:/user/preferences/?:id
+2020/04/12 18:16:14.745 [D] [server.go:2802]  |            ::1|[97;43m 405 [0m|     62.224µs|   match|[97;41m DELETE  [0m /user/preferences/24   r:/user/preferences/?:id
+2020/04/12 18:16:15.738 [D] [server.go:2802]  |            ::1|[97;43m 405 [0m|     64.239µs|   match|[97;41m DELETE  [0m /user/preferences/24   r:/user/preferences/?:id
+2020/04/12 18:16:19.733 [D] [server.go:2802]  |            ::1|[97;43m 404 [0m|    374.216µs| nomatch|[97;44m GET     [0m /v1/user/preferences/77
+2020/04/12 18:16:22.875 [D] [server.go:2802]  |            ::1|[97;43m 404 [0m|     264.24µs| nomatch|[97;44m GET     [0m /v1/user/preferences
+2020/04/12 18:16:23.871 [D] [server.go:2802]  |            ::1|[97;43m 404 [0m|     210.94µs| nomatch|[97;44m GET     [0m /v1/user/preferences
+2020/04/12 18:16:29.218 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   1.505559ms|   match|[97;44m GET     [0m /user/preferences   r:/user/preferences/?:id
+2020/04/12 18:16:38.486 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   1.003518ms|   match|[97;44m GET     [0m /user/preferences/5   r:/user/preferences/?:id
+2020/04/12 18:16:39.579 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   1.322148ms|   match|[97;44m GET     [0m /user/preferences/5   r:/user/preferences/?:id
+2020/04/12 18:17:00.546 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 18:17:18.760 [D] [server.go:2802]  |            ::1|[97;43m 404 [0m|    572.766µs| nomatch|[97;44m GET     [0m /user/preferences
+2020/04/12 18:17:19.784 [D] [server.go:2802]  |            ::1|[97;43m 404 [0m|    269.457µs| nomatch|[97;44m GET     [0m /user/preferences
+2020/04/12 18:17:21.835 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 18:17:25.995 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   2.221034ms|   match|[97;44m GET     [0m /v1/user/preferences   r:/v1/user/preferences/?:id
+2020/04/12 18:17:33.298 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|  96.368637ms|   match|[97;46m POST    [0m /v1/user/preferences   r:/v1/user/preferences/?:id
+2020/04/12 18:17:36.868 [D] [server.go:2802]  |            ::1|[97;43m 404 [0m|     439.66µs| nomatch|[97;41m DELETE  [0m /user/preferences/24
+2020/04/12 18:17:43.027 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   1.284149ms|   match|[97;41m DELETE  [0m /v1/user/preferences/24   r:/v1/user/preferences/?:id
+2020/04/12 18:17:49.989 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   1.720747ms|   match|[97;44m GET     [0m /v1/user/preferences   r:/v1/user/preferences/?:id
+2020/04/12 18:17:55.266 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   1.018458ms|   match|[97;41m DELETE  [0m /v1/user/preferences/28   r:/v1/user/preferences/?:id
+2020/04/12 18:18:00.773 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   1.113887ms|   match|[97;41m DELETE  [0m /v1/user/preferences/28   r:/v1/user/preferences/?:id
+2020/04/12 18:18:02.576 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   1.200483ms|   match|[97;41m DELETE  [0m /v1/user/preferences/28   r:/v1/user/preferences/?:id
+2020/04/12 18:18:03.542 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|    858.237µs|   match|[97;41m DELETE  [0m /v1/user/preferences/28   r:/v1/user/preferences/?:id
+2020/04/12 18:18:04.349 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   1.016587ms|   match|[97;41m DELETE  [0m /v1/user/preferences/28   r:/v1/user/preferences/?:id
+2020/04/12 18:18:07.421 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|    870.038µs|   match|[97;41m DELETE  [0m /v1/user/preferences/28   r:/v1/user/preferences/?:id
+2020/04/12 18:18:08.303 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|    869.449µs|   match|[97;41m DELETE  [0m /v1/user/preferences/28   r:/v1/user/preferences/?:id
+2020/04/12 18:18:09.241 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|    910.506µs|   match|[97;41m DELETE  [0m /v1/user/preferences/28   r:/v1/user/preferences/?:id
+2020/04/12 18:18:11.407 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   1.383267ms|   match|[97;44m GET     [0m /v1/user/preferences   r:/v1/user/preferences/?:id
+2020/04/12 18:19:01.157 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 18:19:13.552 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m| 329.482353ms|   match|[97;41m DELETE  [0m /v1/user/preferences/28   r:/v1/user/preferences/?:id
+2020/04/12 18:19:16.341 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   1.787797ms|   match|[97;44m GET     [0m /v1/user/preferences   r:/v1/user/preferences/?:id
+2020/04/12 18:19:46.321 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 18:19:51.716 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 18:19:56.530 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 18:19:58.796 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   1.615093ms|   match|[97;44m GET     [0m /v1/user/preferences   r:/v1/user/preferences/?:id
+2020/04/12 18:20:02.564 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m| 287.790529ms|   match|[97;46m POST    [0m /v1/user/preferences   r:/v1/user/preferences/?:id
+2020/04/12 18:20:02.663 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 18:20:04.468 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   1.598815ms|   match|[97;41m DELETE  [0m /v1/user/preferences/28   r:/v1/user/preferences/?:id
+2020/04/12 18:20:19.055 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   87.91506ms|   match|[97;44m GET     [0m /swagger/swagger-ui.css
+2020/04/12 18:20:19.545 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m| 572.949234ms|   match|[97;44m GET     [0m /swagger/swagger-ui-bundle.js
+2020/04/12 18:20:19.605 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m| 633.175055ms|   match|[97;44m GET     [0m /swagger/swagger-ui-standalone-preset.js
+2020/04/12 18:20:20.696 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   9.386368ms|   match|[97;44m GET     [0m /swagger/swagger.json
+2020/04/12 18:20:30.885 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|  10.340305ms|   match|[97;44m GET     [0m /swagger/
+2020/04/12 18:20:30.941 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|    146.369µs|   match|[97;44m GET     [0m /swagger/swagger-ui.css
+2020/04/12 18:20:30.950 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|    402.249µs|   match|[97;44m GET     [0m /swagger/swagger-ui-standalone-preset.js
+2020/04/12 18:20:30.953 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|    909.773µs|   match|[97;44m GET     [0m /swagger/swagger-ui-bundle.js
+2020/04/12 18:20:31.396 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|    132.984µs|   match|[97;44m GET     [0m /swagger/swagger.json
+2020/04/12 18:20:31.490 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|    285.896µs|   match|[97;44m GET     [0m /swagger/favicon-32x32.png
+2020/04/12 18:21:59.216 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|     79.443µs|   match|[97;44m GET     [0m /swagger/
+2020/04/12 18:21:59.254 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|    256.859µs|   match|[97;44m GET     [0m /swagger/swagger-ui.css
+2020/04/12 18:21:59.258 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   1.098122ms|   match|[97;44m GET     [0m /swagger/swagger-ui-bundle.js
+2020/04/12 18:21:59.261 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|    538.797µs|   match|[97;44m GET     [0m /swagger/swagger-ui-standalone-preset.js
+2020/04/12 18:22:00.084 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|    200.403µs|   match|[97;44m GET     [0m /swagger/swagger.json
+2020/04/12 18:22:00.163 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|     72.314µs|   match|[97;44m GET     [0m /swagger/favicon-32x32.png
+2020/04/12 20:50:44.520 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 20:58:36.114 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 20:58:42.392 [D] [server.go:2802]  |            ::1|[97;43m 405 [0m|    115.599µs|   match|[97;44m GET     [0m /v1/user/preferences   r:/v1/user/preferences/?:id
+2020/04/12 20:59:13.304 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 20:59:29.787 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m| 157.795736ms|   match|[97;44m GET     [0m /v1/user/preferences   r:/v1/user/preferences/?:id
+2020/04/12 20:59:36.851 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   1.160649ms|   match|[97;44m GET     [0m /v1/user/preferences/34   r:/v1/user/preferences/?:id
+2020/04/12 20:59:37.967 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   1.028094ms|   match|[97;44m GET     [0m /v1/user/preferences/34   r:/v1/user/preferences/?:id
+2020/04/12 21:01:30.308 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   1.349586ms|   match|[97;44m GET     [0m /v1/user/preferences/34   r:/v1/user/preferences/?:id
+2020/04/12 21:01:34.470 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 21:01:36.824 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   2.475525ms|   match|[97;44m GET     [0m /v1/user/preferences/34   r:/v1/user/preferences/?:id
+2020/04/12 21:01:37.460 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 21:01:44.398 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   3.255045ms|   match|[97;44m GET     [0m /v1/user/preferences/34   r:/v1/user/preferences/?:id
+2020/04/12 21:01:55.219 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   1.317202ms|   match|[97;44m GET     [0m /v1/user/preferences   r:/v1/user/preferences/?:id
+2020/04/12 21:06:48.574 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 21:06:50.627 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   2.198161ms|   match|[97;44m GET     [0m /v1/user/preferences   r:/v1/user/preferences/?:id
+2020/04/12 21:06:52.015 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|    958.181µs|   match|[97;44m GET     [0m /v1/user/preferences   r:/v1/user/preferences/?:id
+2020/04/12 21:07:03.385 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|  32.682499ms|   match|[97;44m GET     [0m /v1/user/preferences/34   r:/v1/user/preferences/?:id
+2020/04/12 21:07:15.922 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   1.029584ms|   match|[97;44m GET     [0m /v1/user/preferences   r:/v1/user/preferences/?:id
+2020/04/12 21:08:30.012 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 21:08:34.958 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   2.560459ms|   match|[97;44m GET     [0m /v1/user/preferences   r:/v1/user/preferences/?:id
+2020/04/12 21:08:36.007 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 21:08:39.044 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|  30.356383ms|   match|[97;44m GET     [0m /v1/user/preferences   r:/v1/user/preferences/?:id
+2020/04/12 21:09:04.156 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   1.101495ms|   match|[97;44m GET     [0m /v1/user/preferences/1   r:/v1/user/preferences/?:id
+2020/04/12 21:09:05.398 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|     815.85µs|   match|[97;44m GET     [0m /v1/user/preferences/1   r:/v1/user/preferences/?:id
+2020/04/12 21:09:06.244 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|    1.03949ms|   match|[97;44m GET     [0m /v1/user/preferences/1   r:/v1/user/preferences/?:id
+2020/04/12 21:09:14.290 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   1.265047ms|   match|[97;44m GET     [0m /v1/user/preferences/5   r:/v1/user/preferences/?:id
+2020/04/12 21:09:47.640 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 21:09:50.356 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   1.862257ms|   match|[97;44m GET     [0m /v1/user/preferences   r:/v1/user/preferences/?:id
+2020/04/12 21:10:04.453 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|    943.135µs|   match|[97;44m GET     [0m /v1/user/preferences/5   r:/v1/user/preferences/?:id
+2020/04/12 21:10:09.094 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|    927.647µs|   match|[97;44m GET     [0m /v1/user/preferences/37   r:/v1/user/preferences/?:id
+2020/04/12 21:10:10.049 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|     830.89µs|   match|[97;44m GET     [0m /v1/user/preferences/37   r:/v1/user/preferences/?:id
+2020/04/12 21:10:13.236 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|    883.546µs|   match|[97;44m GET     [0m /v1/user/preferences/36   r:/v1/user/preferences/?:id
+2020/04/12 21:10:14.087 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   1.489989ms|   match|[97;44m GET     [0m /v1/user/preferences/36   r:/v1/user/preferences/?:id
+2020/04/12 21:10:28.751 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m| 390.995626ms|   match|[97;46m POST    [0m /v1/user/preferences   r:/v1/user/preferences/?:id
+2020/04/12 21:10:33.746 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|    912.375µs|   match|[97;44m GET     [0m /v1/user/preferences/35   r:/v1/user/preferences/?:id
+2020/04/12 21:11:25.237 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 21:11:27.439 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   3.064644ms|   match|[97;44m GET     [0m /v1/user/preferences/35   r:/v1/user/preferences/?:id
+2020/04/12 21:11:31.404 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|    2.42069ms|   match|[97;44m GET     [0m /v1/user/preferences   r:/v1/user/preferences/?:id
+2020/04/12 21:11:53.482 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 21:13:00.131 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   1.766752ms|   match|[97;44m GET     [0m /v1/user/preferences/35   r:/v1/user/preferences/?:id
+2020/04/12 21:13:03.897 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   1.363166ms|   match|[97;44m GET     [0m /v1/user/preferences   r:/v1/user/preferences/?:id
+2020/04/12 21:14:31.132 [D] [server.go:2802]  |            ::1|[97;43m 405 [0m|     66.926µs|   match|[97;43m PUT     [0m /v1/user/preferences   r:/v1/user/preferences/?:id
+2020/04/12 21:16:07.051 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 21:17:07.935 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 21:17:15.497 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 21:17:22.543 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 21:18:11.201 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 21:18:52.083 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 21:21:27.353 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 21:49:17.005 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 21:49:17.423 [D] [server.go:2802]  |            ::1|[97;43m 405 [0m|     85.638µs|   match|[97;43m PUT     [0m /v1/user/preferences   r:/v1/user/preferences/?:id
+2020/04/12 21:49:18.457 [D] [server.go:2802]  |            ::1|[97;43m 405 [0m|    113.643µs|   match|[97;43m PUT     [0m /v1/user/preferences   r:/v1/user/preferences/?:id
+2020/04/12 21:49:22.294 [D] [server.go:2802]  |            ::1|[97;43m 405 [0m|      58.12µs|   match|[97;42m PATCH   [0m /v1/user/preferences   r:/v1/user/preferences/?:id
+2020/04/12 21:49:23.437 [D] [server.go:2802]  |            ::1|[97;43m 405 [0m|     87.699µs|   match|[97;42m PATCH   [0m /v1/user/preferences   r:/v1/user/preferences/?:id
+2020/04/12 21:49:44.360 [D] [server.go:2802]  |            ::1|[97;43m 405 [0m|     68.226µs|   match|[97;42m PATCH   [0m /v1/user/preferences/5   r:/v1/user/preferences/?:id
+2020/04/12 21:49:53.922 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|  30.920565ms|   match|[97;41m DELETE  [0m /v1/user/preferences/28   r:/v1/user/preferences/?:id
+2020/04/12 21:51:09.944 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 21:51:13.795 [D] [server.go:2802]  |            ::1|[97;43m 405 [0m|    130.147µs|   match|[97;42m PATCH   [0m /v1/user/preferences   r:/v1/user/preferences/?:id
+2020/04/12 21:51:14.838 [D] [server.go:2802]  |            ::1|[97;43m 405 [0m|    120.518µs|   match|[97;42m PATCH   [0m /v1/user/preferences   r:/v1/user/preferences/?:id
+2020/04/12 21:51:18.638 [D] [server.go:2802]  |            ::1|[97;43m 405 [0m|     61.788µs|   match|[97;43m PUT     [0m /v1/user/preferences   r:/v1/user/preferences/?:id
+2020/04/12 21:51:29.522 [D] [server.go:2802]  |            ::1|[97;43m 405 [0m|       71.7µs|   match|[97;43m PUT     [0m /v1/user/preferences/5   r:/v1/user/preferences/?:id
+2020/04/12 21:52:38.123 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m| 230.787425ms|   match|[97;46m POST    [0m /v1/user/preferences   r:/v1/user/preferences/?:id
+2020/04/12 21:52:48.883 [D] [server.go:2802]  |            ::1|[97;43m 405 [0m|     65.032µs|   match|[97;43m PUT     [0m /v1/user/preferences/5   r:/v1/user/preferences/?:id
+2020/04/12 21:52:49.804 [D] [server.go:2802]  |            ::1|[97;43m 405 [0m|     77.078µs|   match|[97;43m PUT     [0m /v1/user/preferences/5   r:/v1/user/preferences/?:id
+2020/04/12 21:52:50.530 [D] [server.go:2802]  |            ::1|[97;43m 405 [0m|     58.328µs|   match|[97;43m PUT     [0m /v1/user/preferences/5   r:/v1/user/preferences/?:id
+2020/04/12 21:52:59.127 [D] [server.go:2802]  |            ::1|[97;43m 405 [0m|     67.064µs|   match|[97;42m PATCH   [0m /v1/user/preferences/5   r:/v1/user/preferences/?:id
+2020/04/12 21:53:02.240 [D] [server.go:2802]  |            ::1|[97;43m 405 [0m|     69.964µs|   match|[97;42m PATCH   [0m /v1/user/preferences   r:/v1/user/preferences/?:id
+2020/04/12 21:53:02.987 [D] [server.go:2802]  |            ::1|[97;43m 405 [0m|     83.655µs|   match|[97;42m PATCH   [0m /v1/user/preferences   r:/v1/user/preferences/?:id
+2020/04/12 21:53:41.005 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 21:53:42.656 [D] [server.go:2802]  |            ::1|[97;43m 405 [0m|    206.654µs|   match|[97;42m PATCH   [0m /v1/user/preferences   r:/v1/user/preferences/?:id
+2020/04/12 21:55:17.604 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 21:55:24.161 [D] [server.go:2802]  |            ::1|[97;43m 405 [0m|    232.928µs|   match|[97;42m PATCH   [0m /v1/user/preferences   r:/v1/user/preferences/?:id
+2020/04/12 21:55:25.442 [D] [server.go:2802]  |            ::1|[97;43m 405 [0m|    134.756µs|   match|[97;42m PATCH   [0m /v1/user/preferences   r:/v1/user/preferences/?:id
+2020/04/12 21:55:35.426 [D] [server.go:2802]  |            ::1|[97;43m 405 [0m|     71.763µs|   match|[97;42m PATCH   [0m /v1/user/preferences/6   r:/v1/user/preferences/?:id
+2020/04/12 21:55:49.322 [D] [server.go:2802]  |            ::1|[97;43m 405 [0m|     69.724µs|   match|[97;42m PATCH   [0m /v1/user/preferences   r:/v1/user/preferences/?:id
+2020/04/12 21:55:54.784 [D] [server.go:2802]  |            ::1|[97;43m 405 [0m|      56.11µs|   match|[97;42m PATCH   [0m /v1/user/preferences/   r:/v1/user/preferences/?:id
+2020/04/12 21:55:58.194 [D] [server.go:2802]  |            ::1|[97;43m 405 [0m|     76.249µs|   match|[97;42m PATCH   [0m /v1/user/preferences/26   r:/v1/user/preferences/?:id
+2020/04/12 21:55:58.985 [D] [server.go:2802]  |            ::1|[97;43m 405 [0m|    106.929µs|   match|[97;42m PATCH   [0m /v1/user/preferences/26   r:/v1/user/preferences/?:id
+2020/04/12 21:55:59.263 [D] [server.go:2802]  |            ::1|[97;43m 405 [0m|    110.713µs|   match|[97;42m PATCH   [0m /v1/user/preferences/26   r:/v1/user/preferences/?:id
+2020/04/12 21:55:59.458 [D] [server.go:2802]  |            ::1|[97;43m 405 [0m|      65.71µs|   match|[97;42m PATCH   [0m /v1/user/preferences/26   r:/v1/user/preferences/?:id
+2020/04/12 21:56:23.257 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 21:56:28.230 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 21:56:30.970 [D] [server.go:2802]  |            ::1|[97;43m 405 [0m|    178.746µs|   match|[97;42m PATCH   [0m /v1/user/preferences/26   r:/v1/user/preferences/?:id
+2020/04/12 21:56:55.853 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 21:57:22.072 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 21:57:23.890 [D] [server.go:2802]  |            ::1|[97;43m 405 [0m|    178.759µs|   match|[97;42m PATCH   [0m /v1/user/preferences/26   r:/v1/user/preferences/?:id
+2020/04/12 21:57:24.876 [D] [server.go:2802]  |            ::1|[97;43m 405 [0m|    104.292µs|   match|[97;42m PATCH   [0m /v1/user/preferences/26   r:/v1/user/preferences/?:id
+2020/04/12 21:57:28.212 [D] [server.go:2802]  |            ::1|[97;43m 405 [0m|    149.131µs|   match|[97;42m PATCH   [0m /v1/user/preferences   r:/v1/user/preferences/?:id
+2020/04/12 21:57:28.933 [D] [server.go:2802]  |            ::1|[97;43m 405 [0m|     76.879µs|   match|[97;42m PATCH   [0m /v1/user/preferences   r:/v1/user/preferences/?:id
+2020/04/12 21:57:29.100 [D] [server.go:2802]  |            ::1|[97;43m 405 [0m|     55.165µs|   match|[97;42m PATCH   [0m /v1/user/preferences   r:/v1/user/preferences/?:id
+2020/04/12 21:57:29.359 [D] [server.go:2802]  |            ::1|[97;43m 405 [0m|     60.966µs|   match|[97;42m PATCH   [0m /v1/user/preferences   r:/v1/user/preferences/?:id
+2020/04/12 21:57:36.810 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|  55.812196ms|   match|[97;44m GET     [0m /v1/user/preferences   r:/v1/user/preferences/?:id
+2020/04/12 21:57:40.864 [D] [server.go:2802]  |            ::1|[97;43m 405 [0m|     54.761µs|   match|[97;43m PUT     [0m /v1/user/preferences   r:/v1/user/preferences/?:id
+2020/04/12 21:57:44.969 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   1.640582ms|   match|[97;41m DELETE  [0m /v1/user/preferences   r:/v1/user/preferences/?:id
+2020/04/12 21:58:23.589 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|  440.98061ms|   match|[97;42m PATCH   [0m /v1/user   r:/v1/user/
+2020/04/12 21:58:48.814 [D] [server.go:2802]  |            ::1|[97;43m 405 [0m|     97.424µs|   match|[97;42m PATCH   [0m /v1/user/preferences   r:/v1/user/preferences/?:id
+2020/04/12 21:58:49.824 [D] [server.go:2802]  |            ::1|[97;43m 405 [0m|     67.938µs|   match|[97;42m PATCH   [0m /v1/user/preferences   r:/v1/user/preferences/?:id
+2020/04/12 21:58:50.205 [D] [server.go:2802]  |            ::1|[97;43m 405 [0m|     65.002µs|   match|[97;42m PATCH   [0m /v1/user/preferences   r:/v1/user/preferences/?:id
+2020/04/12 22:00:43.311 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/12 22:00:58.919 [D] [server.go:2802]  |            ::1|[97;43m 405 [0m|     166.26µs|   match|[97;42m PATCH   [0m /v1/user/preferences   r:/v1/user/preferences/?:id
+2020/04/12 22:00:59.738 [D] [server.go:2802]  |            ::1|[97;43m 405 [0m|     76.436µs|   match|[97;42m PATCH   [0m /v1/user/preferences   r:/v1/user/preferences/?:id
+2020/04/12 22:00:59.927 [D] [server.go:2802]  |            ::1|[97;43m 405 [0m|      69.21µs|   match|[97;42m PATCH   [0m /v1/user/preferences   r:/v1/user/preferences/?:id
+2020/04/13 00:15:41.232 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/13 00:15:42.402 [D] [server.go:2802]  |            ::1|[97;43m 405 [0m|     59.736µs|   match|[97;42m PATCH   [0m /v1/user/preferences   r:/v1/user/preferences/?:id
+2020/04/13 00:15:44.026 [D] [server.go:2802]  |            ::1|[97;43m 405 [0m|    100.343µs|   match|[97;42m PATCH   [0m /v1/user/preferences   r:/v1/user/preferences/?:id
+2020/04/13 00:15:44.760 [D] [server.go:2802]  |            ::1|[97;43m 405 [0m|     64.785µs|   match|[97;42m PATCH   [0m /v1/user/preferences   r:/v1/user/preferences/?:id
+2020/04/13 00:15:52.522 [D] [server.go:2802]  |            ::1|[97;43m 405 [0m|     74.056µs|   match|[97;42m PATCH   [0m /v1/user/preferences/67   r:/v1/user/preferences/?:id
+2020/04/13 00:15:54.534 [D] [server.go:2802]  |            ::1|[97;43m 405 [0m|     73.228µs|   match|[97;42m PATCH   [0m /v1/user/preferences/67   r:/v1/user/preferences/?:id
+2020/04/13 00:15:55.157 [D] [server.go:2802]  |            ::1|[97;43m 405 [0m|     93.008µs|   match|[97;42m PATCH   [0m /v1/user/preferences/67   r:/v1/user/preferences/?:id
+2020/04/13 00:16:14.888 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/13 00:17:10.146 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/13 00:17:14.028 [D] [server.go:2802]  |            ::1|[97;43m 405 [0m|     80.727µs|   match|[97;42m PATCH   [0m /v1/user/preferences/67   r:/v1/user/preferences/?:id
+2020/04/13 00:17:28.549 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/13 00:17:33.685 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   1.738775ms|   match|[97;43m PUT     [0m /v1/user/preferences/67   r:/v1/user/preferences/?:id
+2020/04/13 00:17:53.576 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/13 00:18:06.050 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/13 00:18:15.163 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m| 210.906237ms|   match|[97;43m PUT     [0m /v1/user/preferences/67   r:/v1/user/preferences/?:id
+2020/04/13 00:18:25.157 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|  95.605566ms|   match|[97;43m PUT     [0m /v1/user/preferences   r:/v1/user/preferences/?:id
+2020/04/18 00:31:46.106 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/18 00:32:09.058 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|  750.29056ms|   match|[97;44m GET     [0m /v1/on-boarding   r:/v1/on-boarding/
+2020/04/18 00:34:23.123 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/18 00:34:25.674 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   42.44908ms|   match|[97;44m GET     [0m /v1/on-boarding   r:/v1/on-boarding/
+2020/04/18 00:35:27.224 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/18 00:35:30.353 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|    1.70795ms|   match|[97;44m GET     [0m /v1/on-boarding   r:/v1/on-boarding/
+2020/04/18 00:36:48.775 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/18 00:36:51.839 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m| 218.270059ms|   match|[97;44m GET     [0m /v1/on-boarding   r:/v1/on-boarding/
+2020/04/18 00:41:56.597 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/18 00:44:35.162 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/18 18:06:33.679 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/18 18:06:43.431 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   78.00246ms|   match|[97;44m GET     [0m /v1/on-boarding   r:/v1/on-boarding/
+2020/04/18 18:07:26.704 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/18 18:07:28.677 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   2.353402ms|   match|[97;44m GET     [0m /v1/on-boarding   r:/v1/on-boarding/
+2020/04/18 18:07:31.321 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   2.927928ms|   match|[97;44m GET     [0m /v1/on-boarding   r:/v1/on-boarding/
+2020/04/18 18:07:32.258 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   2.869085ms|   match|[97;44m GET     [0m /v1/on-boarding   r:/v1/on-boarding/
+2020/04/18 18:07:33.021 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   1.769899ms|   match|[97;44m GET     [0m /v1/on-boarding   r:/v1/on-boarding/
+2020/04/18 18:07:51.983 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/18 18:07:55.290 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|    2.52036ms|   match|[97;44m GET     [0m /v1/on-boarding   r:/v1/on-boarding/
+2020/04/18 18:07:56.794 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   2.847162ms|   match|[97;44m GET     [0m /v1/on-boarding   r:/v1/on-boarding/
+2020/04/18 18:07:57.078 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|     1.7934ms|   match|[97;44m GET     [0m /v1/on-boarding   r:/v1/on-boarding/
+2020/04/18 18:08:20.344 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|    2.79539ms|   match|[97;44m GET     [0m /v1/on-boarding   r:/v1/on-boarding/
+2020/04/18 18:08:21.817 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   1.849858ms|   match|[97;44m GET     [0m /v1/on-boarding   r:/v1/on-boarding/
+2020/04/18 18:08:22.262 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/18 18:08:22.783 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   3.373644ms|   match|[97;44m GET     [0m /v1/on-boarding   r:/v1/on-boarding/
+2020/04/18 18:08:23.559 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   2.694578ms|   match|[97;44m GET     [0m /v1/on-boarding   r:/v1/on-boarding/
+2020/04/18 18:08:24.140 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   3.088491ms|   match|[97;44m GET     [0m /v1/on-boarding   r:/v1/on-boarding/
+2020/04/18 18:08:24.733 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   7.664802ms|   match|[97;44m GET     [0m /v1/on-boarding   r:/v1/on-boarding/
+2020/04/18 18:08:25.366 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   2.060791ms|   match|[97;44m GET     [0m /v1/on-boarding   r:/v1/on-boarding/
+2020/04/18 18:08:28.013 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   1.858239ms|   match|[97;44m GET     [0m /v1/on-boarding   r:/v1/on-boarding/
+2020/04/18 18:08:56.282 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/18 18:08:58.114 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   2.505365ms|   match|[97;44m GET     [0m /v1/on-boarding   r:/v1/on-boarding/
+2020/04/18 18:08:59.381 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   2.005437ms|   match|[97;44m GET     [0m /v1/on-boarding   r:/v1/on-boarding/
+2020/04/18 18:09:04.945 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/18 18:09:05.723 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   2.211269ms|   match|[97;44m GET     [0m /v1/on-boarding   r:/v1/on-boarding/
+2020/04/18 18:09:17.629 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/18 18:09:19.562 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   3.491318ms|   match|[97;44m GET     [0m /v1/on-boarding   r:/v1/on-boarding/
+2020/04/18 18:09:20.636 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   1.855689ms|   match|[97;44m GET     [0m /v1/on-boarding   r:/v1/on-boarding/
+2020/04/18 18:09:39.014 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/18 18:09:41.000 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   2.511171ms|   match|[97;44m GET     [0m /v1/on-boarding   r:/v1/on-boarding/
+2020/04/18 18:09:42.024 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   2.995078ms|   match|[97;44m GET     [0m /v1/on-boarding   r:/v1/on-boarding/
+2020/04/18 18:09:52.329 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/18 18:09:52.922 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   2.431949ms|   match|[97;44m GET     [0m /v1/on-boarding   r:/v1/on-boarding/
+2020/04/18 18:09:53.858 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   1.809724ms|   match|[97;44m GET     [0m /v1/on-boarding   r:/v1/on-boarding/
+2020/04/18 18:09:54.634 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   1.859509ms|   match|[97;44m GET     [0m /v1/on-boarding   r:/v1/on-boarding/
+2020/04/18 18:09:59.771 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   1.982426ms|   match|[97;44m GET     [0m /v1/on-boarding   r:/v1/on-boarding/
+2020/04/18 18:10:00.779 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   1.925498ms|   match|[97;44m GET     [0m /v1/on-boarding   r:/v1/on-boarding/
+2020/04/18 18:10:14.457 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   3.853288ms|   match|[97;44m GET     [0m /v1/on-boarding   r:/v1/on-boarding/
+2020/04/18 18:10:15.552 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   3.045177ms|   match|[97;44m GET     [0m /v1/on-boarding   r:/v1/on-boarding/
+2020/04/18 18:10:16.384 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   2.804925ms|   match|[97;44m GET     [0m /v1/on-boarding   r:/v1/on-boarding/
+2020/04/18 18:10:16.861 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   3.040822ms|   match|[97;44m GET     [0m /v1/on-boarding   r:/v1/on-boarding/
+2020/04/18 18:10:17.050 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   1.760002ms|   match|[97;44m GET     [0m /v1/on-boarding   r:/v1/on-boarding/
+2020/04/18 18:10:17.281 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/18 18:10:19.461 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   3.868788ms|   match|[97;44m GET     [0m /v1/on-boarding   r:/v1/on-boarding/
+2020/04/18 18:10:20.193 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   2.202173ms|   match|[97;44m GET     [0m /v1/on-boarding   r:/v1/on-boarding/
+2020/04/18 18:10:20.943 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   3.040066ms|   match|[97;44m GET     [0m /v1/on-boarding   r:/v1/on-boarding/
+2020/04/18 18:11:12.776 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/18 18:11:14.759 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|  56.608483ms|   match|[97;44m GET     [0m /v1/on-boarding   r:/v1/on-boarding/
+2020/04/18 18:12:36.164 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/19 23:19:02.843 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/19 23:19:31.795 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|  68.234109ms|   match|[97;44m GET     [0m /v1/on-boarding   r:/v1/on-boarding/
+2020/04/19 23:20:57.954 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/19 23:21:04.660 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   2.438378ms|   match|[97;44m GET     [0m /v1/on-boarding   r:/v1/on-boarding/
+2020/04/19 23:21:23.982 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   1.531904ms|   match|[97;44m GET     [0m /v1/on-boarding   r:/v1/on-boarding/
+2020/04/19 23:21:27.940 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/19 23:21:34.185 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   1.436404ms|   match|[97;44m GET     [0m /v1/on-boarding   r:/v1/on-boarding/
+2020/04/19 23:22:02.121 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/19 23:22:05.793 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   1.324087ms|   match|[97;44m GET     [0m /v1/on-boarding   r:/v1/on-boarding/
+2020/04/19 23:22:06.972 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|    646.881µs|   match|[97;44m GET     [0m /v1/on-boarding   r:/v1/on-boarding/
+2020/04/19 23:22:40.635 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/19 23:22:42.303 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   1.510302ms|   match|[97;44m GET     [0m /v1/on-boarding   r:/v1/on-boarding/
+2020/04/19 23:22:47.855 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|    722.088µs|   match|[97;44m GET     [0m /v1/on-boarding   r:/v1/on-boarding/
+2020/04/19 23:22:48.881 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|    716.398µs|   match|[97;44m GET     [0m /v1/on-boarding   r:/v1/on-boarding/
+2020/04/19 23:22:50.582 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|    815.398µs|   match|[97;44m GET     [0m /v1/on-boarding   r:/v1/on-boarding/
+2020/04/19 23:23:07.571 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/19 23:23:10.160 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|    1.28905ms|   match|[97;44m GET     [0m /v1/on-boarding   r:/v1/on-boarding/
+2020/04/19 23:23:28.044 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|    977.303µs|   match|[97;44m GET     [0m /v1/on-boarding   r:/v1/on-boarding/
+2020/04/19 23:23:28.867 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|    568.934µs|   match|[97;44m GET     [0m /v1/on-boarding   r:/v1/on-boarding/
+2020/04/19 23:23:29.799 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|    769.232µs|   match|[97;44m GET     [0m /v1/on-boarding   r:/v1/on-boarding/
+2020/04/19 23:23:30.146 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/19 23:23:30.538 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   1.770544ms|   match|[97;44m GET     [0m /v1/on-boarding   r:/v1/on-boarding/
+2020/04/19 23:23:31.159 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|    683.576µs|   match|[97;44m GET     [0m /v1/on-boarding   r:/v1/on-boarding/
+2020/04/19 23:23:59.056 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/19 23:24:00.835 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   1.955343ms|   match|[97;44m GET     [0m /v1/on-boarding   r:/v1/on-boarding/
+2020/04/19 23:24:01.734 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   1.258678ms|   match|[97;44m GET     [0m /v1/on-boarding   r:/v1/on-boarding/
+2020/04/19 23:25:01.692 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/19 23:25:05.143 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|    1.69208ms|   match|[97;44m GET     [0m /v1/on-boarding   r:/v1/on-boarding/
+2020/04/19 23:25:07.819 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/19 23:25:08.758 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   1.323701ms|   match|[97;44m GET     [0m /v1/on-boarding   r:/v1/on-boarding/
+2020/04/19 23:25:09.752 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|    746.864µs|   match|[97;44m GET     [0m /v1/on-boarding   r:/v1/on-boarding/
+2020/04/19 23:25:11.828 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|    728.962µs|   match|[97;44m GET     [0m /v1/on-boarding   r:/v1/on-boarding/
+2020/04/19 23:27:59.124 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/19 23:28:13.283 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/19 23:28:39.555 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/19 23:28:51.167 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m| 327.133674ms|   match|[97;44m GET     [0m /v1/on-boarding   r:/v1/on-boarding/
+2020/04/19 23:28:53.009 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   1.327401ms|   match|[97;44m GET     [0m /v1/on-boarding   r:/v1/on-boarding/
+2020/04/19 23:28:54.009 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   1.199261ms|   match|[97;44m GET     [0m /v1/on-boarding   r:/v1/on-boarding/
+2020/04/19 23:29:14.993 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/19 23:29:18.716 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|    1.67092ms|   match|[97;44m GET     [0m /v1/on-boarding   r:/v1/on-boarding/
+2020/04/19 23:29:20.616 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|    730.256µs|   match|[97;44m GET     [0m /v1/on-boarding   r:/v1/on-boarding/
+2020/04/19 23:29:21.495 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|    1.17864ms|   match|[97;44m GET     [0m /v1/on-boarding   r:/v1/on-boarding/
+2020/04/19 23:29:22.336 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   1.116192ms|   match|[97;44m GET     [0m /v1/on-boarding   r:/v1/on-boarding/
+2020/04/19 23:30:11.565 [I] [asm_amd64.s:1357]  http server Running on http://:8080

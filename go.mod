@@ -1,0 +1,4 @@
+module domio-api
+
+go 1.13
+

@@ -1,0 +1,281 @@
+2020/04/26 15:49:21.685 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/26 15:50:47.968 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/26 15:53:58.078 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/26 15:55:05.141 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/26 16:02:44.314 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m| 209.053221ms|   match|[97;46m POST    [0m /v1/user/story   r:/v1/user/story/
+2020/04/26 16:05:25.107 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/26 16:09:49.345 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/26 16:10:04.725 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m| 192.402896ms|   match|[97;46m POST    [0m /v1/user/story   r:/v1/user/story/
+2020/04/26 16:26:15.676 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/26 17:06:25.791 [D] [server.go:2802]  |            ::1|[97;43m 405 [0m| 234.917785ms|   match|[97;44m GET     [0m /v1/user/story   r:/v1/user/story/
+2020/04/26 17:17:31.239 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/26 17:19:38.834 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/26 17:23:51.174 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/26 17:32:30.783 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m| 499.171098ms|   match|[97;44m GET     [0m /v1/preferences/35   r:/v1/preferences/?:id
+2020/04/26 17:32:35.143 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m| 203.357825ms|   match|[97;44m GET     [0m /v1/preferences   r:/v1/preferences/?:id
+2020/04/26 17:46:00.922 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/26 17:46:28.415 [C] [panic.go:679]  the request url is  /v1/user/story
+2020/04/26 17:46:28.415 [C] [panic.go:679]  Handler crashed with error wrong object type `*[]*models.UserStory` for rows scan, need *[]*domio-api/models.Preference or *[]domio-api/models.Preference
+2020/04/26 17:46:28.415 [C] [panic.go:679]  /usr/local/go/src/runtime/panic.go:679
+2020/04/26 17:46:28.415 [C] [panic.go:679]  /home/vinay/go/src/github.com/astaxie/beego/orm/db.go:943
+2020/04/26 17:46:28.416 [C] [panic.go:679]  /home/vinay/go/src/github.com/astaxie/beego/orm/orm_queryset.go:213
+2020/04/26 17:46:28.416 [C] [panic.go:679]  /home/vinay/go/src/domio-api/models/userStory.go:75
+2020/04/26 17:46:28.416 [C] [panic.go:679]  /home/vinay/go/src/domio-api/controllers/userstory.go:123
+2020/04/26 17:46:28.416 [C] [panic.go:679]  /home/vinay/go/src/github.com/astaxie/beego/router.go:833
+2020/04/26 17:46:28.416 [C] [panic.go:679]  /usr/local/go/src/net/http/server.go:2802
+2020/04/26 17:46:28.416 [C] [panic.go:679]  /usr/local/go/src/net/http/server.go:1890
+2020/04/26 17:46:28.416 [C] [panic.go:679]  /usr/local/go/src/runtime/asm_amd64.s:1357
+2020/04/26 17:46:28.416 [server.go:3053]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2020/04/26 17:46:48.595 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/26 17:46:57.987 [C] [panic.go:679]  the request url is  /v1/user/story
+2020/04/26 17:46:57.987 [C] [panic.go:679]  Handler crashed with error wrong object type `*[]*models.UserStory` for rows scan, need *[]*domio-api/models.Preference or *[]domio-api/models.Preference
+2020/04/26 17:46:57.987 [C] [panic.go:679]  /usr/local/go/src/runtime/panic.go:679
+2020/04/26 17:46:57.987 [C] [panic.go:679]  /home/vinay/go/src/github.com/astaxie/beego/orm/db.go:943
+2020/04/26 17:46:57.987 [C] [panic.go:679]  /home/vinay/go/src/github.com/astaxie/beego/orm/orm_queryset.go:213
+2020/04/26 17:46:57.987 [C] [panic.go:679]  /home/vinay/go/src/domio-api/models/userStory.go:75
+2020/04/26 17:46:57.987 [C] [panic.go:679]  /home/vinay/go/src/domio-api/controllers/userstory.go:123
+2020/04/26 17:46:57.987 [C] [panic.go:679]  /home/vinay/go/src/github.com/astaxie/beego/router.go:833
+2020/04/26 17:46:57.987 [C] [panic.go:679]  /usr/local/go/src/net/http/server.go:2802
+2020/04/26 17:46:57.987 [C] [panic.go:679]  /usr/local/go/src/net/http/server.go:1890
+2020/04/26 17:46:57.988 [C] [panic.go:679]  /usr/local/go/src/runtime/asm_amd64.s:1357
+2020/04/26 17:46:57.988 [server.go:3053]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2020/04/26 17:47:15.509 [C] [panic.go:679]  the request url is  /v1/user/story/2
+2020/04/26 17:47:15.509 [C] [panic.go:679]  Handler crashed with error wrong object type `*[]*models.UserStory` for rows scan, need *[]*domio-api/models.Preference or *[]domio-api/models.Preference
+2020/04/26 17:47:15.509 [C] [panic.go:679]  /usr/local/go/src/runtime/panic.go:679
+2020/04/26 17:47:15.509 [C] [panic.go:679]  /home/vinay/go/src/github.com/astaxie/beego/orm/db.go:943
+2020/04/26 17:47:15.510 [C] [panic.go:679]  /home/vinay/go/src/github.com/astaxie/beego/orm/orm_queryset.go:213
+2020/04/26 17:47:15.510 [C] [panic.go:679]  /home/vinay/go/src/domio-api/models/userStory.go:77
+2020/04/26 17:47:15.510 [C] [panic.go:679]  /home/vinay/go/src/domio-api/controllers/userstory.go:123
+2020/04/26 17:47:15.510 [C] [panic.go:679]  /home/vinay/go/src/github.com/astaxie/beego/router.go:833
+2020/04/26 17:47:15.510 [C] [panic.go:679]  /usr/local/go/src/net/http/server.go:2802
+2020/04/26 17:47:15.510 [C] [panic.go:679]  /usr/local/go/src/net/http/server.go:1890
+2020/04/26 17:47:15.510 [C] [panic.go:679]  /usr/local/go/src/runtime/asm_amd64.s:1357
+2020/04/26 17:47:15.510 [server.go:3053]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2020/04/26 17:48:19.646 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/26 17:48:23.514 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/26 17:48:28.233 [C] [panic.go:679]  the request url is  /v1/user/story/2
+2020/04/26 17:48:28.233 [C] [panic.go:679]  Handler crashed with error wrong object type `*[]*models.UserStory` for rows scan, need *[]*domio-api/models.Preference or *[]domio-api/models.Preference
+2020/04/26 17:48:28.233 [C] [panic.go:679]  /usr/local/go/src/runtime/panic.go:679
+2020/04/26 17:48:28.234 [C] [panic.go:679]  /home/vinay/go/src/github.com/astaxie/beego/orm/db.go:943
+2020/04/26 17:48:28.234 [C] [panic.go:679]  /home/vinay/go/src/github.com/astaxie/beego/orm/orm_queryset.go:213
+2020/04/26 17:48:28.234 [C] [panic.go:679]  /home/vinay/go/src/domio-api/models/userStory.go:79
+2020/04/26 17:48:28.234 [C] [panic.go:679]  /home/vinay/go/src/domio-api/controllers/userstory.go:123
+2020/04/26 17:48:28.234 [C] [panic.go:679]  /home/vinay/go/src/github.com/astaxie/beego/router.go:833
+2020/04/26 17:48:28.234 [C] [panic.go:679]  /usr/local/go/src/net/http/server.go:2802
+2020/04/26 17:48:28.234 [C] [panic.go:679]  /usr/local/go/src/net/http/server.go:1890
+2020/04/26 17:48:28.234 [C] [panic.go:679]  /usr/local/go/src/runtime/asm_amd64.s:1357
+2020/04/26 17:48:28.235 [server.go:3053]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2020/04/26 17:48:29.305 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/26 17:48:35.594 [C] [panic.go:679]  the request url is  /v1/user/story/2
+2020/04/26 17:48:35.594 [C] [panic.go:679]  Handler crashed with error wrong object type `*[]*models.UserStory` for rows scan, need *[]*domio-api/models.Preference or *[]domio-api/models.Preference
+2020/04/26 17:48:35.594 [C] [panic.go:679]  /usr/local/go/src/runtime/panic.go:679
+2020/04/26 17:48:35.594 [C] [panic.go:679]  /home/vinay/go/src/github.com/astaxie/beego/orm/db.go:943
+2020/04/26 17:48:35.594 [C] [panic.go:679]  /home/vinay/go/src/github.com/astaxie/beego/orm/orm_queryset.go:213
+2020/04/26 17:48:35.594 [C] [panic.go:679]  /home/vinay/go/src/domio-api/models/userStory.go:79
+2020/04/26 17:48:35.594 [C] [panic.go:679]  /home/vinay/go/src/domio-api/controllers/userstory.go:123
+2020/04/26 17:48:35.594 [C] [panic.go:679]  /home/vinay/go/src/github.com/astaxie/beego/router.go:833
+2020/04/26 17:48:35.594 [C] [panic.go:679]  /usr/local/go/src/net/http/server.go:2802
+2020/04/26 17:48:35.594 [C] [panic.go:679]  /usr/local/go/src/net/http/server.go:1890
+2020/04/26 17:48:35.594 [C] [panic.go:679]  /usr/local/go/src/runtime/asm_amd64.s:1357
+2020/04/26 17:48:35.595 [server.go:3053]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2020/04/26 17:49:01.979 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/26 17:49:05.657 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m| 232.913104ms|   match|[97;44m GET     [0m /v1/user/story/2   r:/v1/user/story/?:id
+2020/04/26 17:49:14.643 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m| 263.858023ms|   match|[97;44m GET     [0m /v1/user/story/   r:/v1/user/story/?:id
+2020/04/26 17:50:09.553 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/26 17:50:28.203 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/26 17:50:30.629 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   4.168479ms|   match|[97;44m GET     [0m /v1/user/story/   r:/v1/user/story/?:id
+2020/04/26 17:51:01.331 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/26 17:51:10.253 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/26 17:51:30.907 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/26 17:51:33.766 [C] [panic.go:679]  the request url is  /v1/user/story/
+2020/04/26 17:51:33.766 [C] [panic.go:679]  Handler crashed with error <Ormer> table: `.` not found, make sure it was registered with `RegisterModel()`
+2020/04/26 17:51:33.766 [C] [panic.go:679]  /usr/local/go/src/runtime/panic.go:679
+2020/04/26 17:51:33.766 [C] [panic.go:679]  /home/vinay/go/src/github.com/astaxie/beego/orm/orm.go:114
+2020/04/26 17:51:33.766 [C] [panic.go:679]  /home/vinay/go/src/github.com/astaxie/beego/orm/orm.go:352
+2020/04/26 17:51:33.766 [C] [panic.go:679]  /home/vinay/go/src/github.com/astaxie/beego/orm/orm.go:278
+2020/04/26 17:51:33.766 [C] [panic.go:679]  /home/vinay/go/src/domio-api/models/userStory.go:83
+2020/04/26 17:51:33.766 [C] [panic.go:679]  /home/vinay/go/src/domio-api/controllers/userstory.go:123
+2020/04/26 17:51:33.766 [C] [panic.go:679]  /home/vinay/go/src/github.com/astaxie/beego/router.go:833
+2020/04/26 17:51:33.766 [C] [panic.go:679]  /usr/local/go/src/net/http/server.go:2802
+2020/04/26 17:51:33.766 [C] [panic.go:679]  /usr/local/go/src/net/http/server.go:1890
+2020/04/26 17:51:33.767 [C] [panic.go:679]  /usr/local/go/src/runtime/asm_amd64.s:1357
+2020/04/26 17:51:33.767 [server.go:3053]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2020/04/26 17:51:35.526 [C] [panic.go:679]  the request url is  /v1/user/story/
+2020/04/26 17:51:35.526 [C] [panic.go:679]  Handler crashed with error <Ormer> table: `.` not found, make sure it was registered with `RegisterModel()`
+2020/04/26 17:51:35.527 [C] [panic.go:679]  /usr/local/go/src/runtime/panic.go:679
+2020/04/26 17:51:35.527 [C] [panic.go:679]  /home/vinay/go/src/github.com/astaxie/beego/orm/orm.go:114
+2020/04/26 17:51:35.527 [C] [panic.go:679]  /home/vinay/go/src/github.com/astaxie/beego/orm/orm.go:352
+2020/04/26 17:51:35.527 [C] [panic.go:679]  /home/vinay/go/src/github.com/astaxie/beego/orm/orm.go:278
+2020/04/26 17:51:35.527 [C] [panic.go:679]  /home/vinay/go/src/domio-api/models/userStory.go:83
+2020/04/26 17:51:35.527 [C] [panic.go:679]  /home/vinay/go/src/domio-api/controllers/userstory.go:123
+2020/04/26 17:51:35.527 [C] [panic.go:679]  /home/vinay/go/src/github.com/astaxie/beego/router.go:833
+2020/04/26 17:51:35.527 [C] [panic.go:679]  /usr/local/go/src/net/http/server.go:2802
+2020/04/26 17:51:35.527 [C] [panic.go:679]  /usr/local/go/src/net/http/server.go:1890
+2020/04/26 17:51:35.527 [C] [panic.go:679]  /usr/local/go/src/runtime/asm_amd64.s:1357
+2020/04/26 17:51:35.528 [server.go:3053]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2020/04/26 17:52:22.872 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/26 17:52:39.000 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/26 17:52:41.612 [C] [panic.go:679]  the request url is  /v1/user/story/
+2020/04/26 17:52:41.612 [C] [panic.go:679]  Handler crashed with error <Ormer> table: `.` not found, make sure it was registered with `RegisterModel()`
+2020/04/26 17:52:41.612 [C] [panic.go:679]  /usr/local/go/src/runtime/panic.go:679
+2020/04/26 17:52:41.612 [C] [panic.go:679]  /home/vinay/go/src/github.com/astaxie/beego/orm/orm.go:114
+2020/04/26 17:52:41.612 [C] [panic.go:679]  /home/vinay/go/src/github.com/astaxie/beego/orm/orm.go:352
+2020/04/26 17:52:41.612 [C] [panic.go:679]  /home/vinay/go/src/github.com/astaxie/beego/orm/orm.go:278
+2020/04/26 17:52:41.612 [C] [panic.go:679]  /home/vinay/go/src/domio-api/models/userStory.go:83
+2020/04/26 17:52:41.612 [C] [panic.go:679]  /home/vinay/go/src/domio-api/controllers/userstory.go:123
+2020/04/26 17:52:41.612 [C] [panic.go:679]  /home/vinay/go/src/github.com/astaxie/beego/router.go:833
+2020/04/26 17:52:41.612 [C] [panic.go:679]  /usr/local/go/src/net/http/server.go:2802
+2020/04/26 17:52:41.612 [C] [panic.go:679]  /usr/local/go/src/net/http/server.go:1890
+2020/04/26 17:52:41.612 [C] [panic.go:679]  /usr/local/go/src/runtime/asm_amd64.s:1357
+2020/04/26 17:52:41.613 [server.go:3053]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2020/04/26 17:52:44.246 [C] [panic.go:679]  the request url is  /v1/user/story/
+2020/04/26 17:52:44.246 [C] [panic.go:679]  Handler crashed with error <Ormer> table: `.` not found, make sure it was registered with `RegisterModel()`
+2020/04/26 17:52:44.246 [C] [panic.go:679]  /usr/local/go/src/runtime/panic.go:679
+2020/04/26 17:52:44.246 [C] [panic.go:679]  /home/vinay/go/src/github.com/astaxie/beego/orm/orm.go:114
+2020/04/26 17:52:44.246 [C] [panic.go:679]  /home/vinay/go/src/github.com/astaxie/beego/orm/orm.go:352
+2020/04/26 17:52:44.246 [C] [panic.go:679]  /home/vinay/go/src/github.com/astaxie/beego/orm/orm.go:278
+2020/04/26 17:52:44.246 [C] [panic.go:679]  /home/vinay/go/src/domio-api/models/userStory.go:83
+2020/04/26 17:52:44.246 [C] [panic.go:679]  /home/vinay/go/src/domio-api/controllers/userstory.go:123
+2020/04/26 17:52:44.246 [C] [panic.go:679]  /home/vinay/go/src/github.com/astaxie/beego/router.go:833
+2020/04/26 17:52:44.246 [C] [panic.go:679]  /usr/local/go/src/net/http/server.go:2802
+2020/04/26 17:52:44.247 [C] [panic.go:679]  /usr/local/go/src/net/http/server.go:1890
+2020/04/26 17:52:44.247 [C] [panic.go:679]  /usr/local/go/src/runtime/asm_amd64.s:1357
+2020/04/26 17:52:44.247 [server.go:3053]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2020/04/26 17:52:45.141 [C] [panic.go:679]  the request url is  /v1/user/story/
+2020/04/26 17:52:45.141 [C] [panic.go:679]  Handler crashed with error <Ormer> table: `.` not found, make sure it was registered with `RegisterModel()`
+2020/04/26 17:52:45.142 [C] [panic.go:679]  /usr/local/go/src/runtime/panic.go:679
+2020/04/26 17:52:45.142 [C] [panic.go:679]  /home/vinay/go/src/github.com/astaxie/beego/orm/orm.go:114
+2020/04/26 17:52:45.142 [C] [panic.go:679]  /home/vinay/go/src/github.com/astaxie/beego/orm/orm.go:352
+2020/04/26 17:52:45.142 [C] [panic.go:679]  /home/vinay/go/src/github.com/astaxie/beego/orm/orm.go:278
+2020/04/26 17:52:45.142 [C] [panic.go:679]  /home/vinay/go/src/domio-api/models/userStory.go:83
+2020/04/26 17:52:45.142 [C] [panic.go:679]  /home/vinay/go/src/domio-api/controllers/userstory.go:123
+2020/04/26 17:52:45.142 [C] [panic.go:679]  /home/vinay/go/src/github.com/astaxie/beego/router.go:833
+2020/04/26 17:52:45.142 [C] [panic.go:679]  /usr/local/go/src/net/http/server.go:2802
+2020/04/26 17:52:45.142 [C] [panic.go:679]  /usr/local/go/src/net/http/server.go:1890
+2020/04/26 17:52:45.142 [C] [panic.go:679]  /usr/local/go/src/runtime/asm_amd64.s:1357
+2020/04/26 17:52:45.143 [server.go:3053]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2020/04/26 17:53:08.030 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/26 17:53:09.966 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|  49.316678ms|   match|[97;44m GET     [0m /v1/user/story/   r:/v1/user/story/?:id
+2020/04/26 17:53:15.522 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   2.950899ms|   match|[97;44m GET     [0m /v1/user/story/2   r:/v1/user/story/?:id
+2020/04/26 17:54:15.349 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/26 17:55:27.134 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/26 17:55:30.054 [C] [panic.go:679]  the request url is  /v1/user/story/2
+2020/04/26 17:55:30.055 [C] [panic.go:679]  Handler crashed with error <Ormer> cannot use non-ptr model struct `.`
+2020/04/26 17:55:30.055 [C] [panic.go:679]  /usr/local/go/src/runtime/panic.go:679
+2020/04/26 17:55:30.055 [C] [panic.go:679]  /home/vinay/go/src/github.com/astaxie/beego/orm/orm.go:108
+2020/04/26 17:55:30.055 [C] [panic.go:679]  /home/vinay/go/src/github.com/astaxie/beego/orm/orm.go:352
+2020/04/26 17:55:30.055 [C] [panic.go:679]  /home/vinay/go/src/github.com/astaxie/beego/orm/orm.go:278
+2020/04/26 17:55:30.055 [C] [panic.go:679]  /home/vinay/go/src/domio-api/models/userStory.go:83
+2020/04/26 17:55:30.055 [C] [panic.go:679]  /home/vinay/go/src/domio-api/controllers/userstory.go:123
+2020/04/26 17:55:30.055 [C] [panic.go:679]  /home/vinay/go/src/github.com/astaxie/beego/router.go:833
+2020/04/26 17:55:30.055 [C] [panic.go:679]  /usr/local/go/src/net/http/server.go:2802
+2020/04/26 17:55:30.055 [C] [panic.go:679]  /usr/local/go/src/net/http/server.go:1890
+2020/04/26 17:55:30.055 [C] [panic.go:679]  /usr/local/go/src/runtime/asm_amd64.s:1357
+2020/04/26 17:55:30.056 [server.go:3053]  [HTTP] http: superfluous response.WriteHeader call from github.com/astaxie/beego/context.(*Response).WriteHeader (context.go:230)
+2020/04/26 17:56:26.521 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/26 17:56:34.622 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|    2.14218ms|   match|[97;44m GET     [0m /v1/user/story/2   r:/v1/user/story/?:id
+2020/04/26 17:56:39.561 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   2.389321ms|   match|[97;44m GET     [0m /v1/user/story   r:/v1/user/story/?:id
+2020/04/26 18:28:32.733 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m| 160.464254ms|   match|[97;44m GET     [0m /v1/user/story/2   r:/v1/user/story/?:id
+2020/04/26 18:28:58.173 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/26 18:29:10.731 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m| 133.747395ms|   match|[97;44m GET     [0m /v1/user/story/2   r:/v1/user/story/?:id
+2020/04/26 18:29:13.240 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   1.251583ms|   match|[97;44m GET     [0m /v1/user/story/2   r:/v1/user/story/?:id
+2020/04/26 19:17:49.423 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/26 19:18:03.126 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m| 378.346773ms|   match|[97;44m GET     [0m /v1/user/story   r:/v1/user/story/?:id
+2020/04/26 19:18:04.916 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   1.200704ms|   match|[97;44m GET     [0m /v1/user/story   r:/v1/user/story/?:id
+2020/04/26 19:18:07.170 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   1.307104ms|   match|[97;44m GET     [0m /v1/user/story   r:/v1/user/story/?:id
+2020/04/26 19:18:25.726 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/26 19:18:33.115 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   5.249093ms|   match|[97;44m GET     [0m /v1/user/story   r:/v1/user/story/?:id
+2020/04/26 19:18:34.544 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   2.592804ms|   match|[97;44m GET     [0m /v1/user/story   r:/v1/user/story/?:id
+2020/04/26 19:21:32.424 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/26 19:22:02.579 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/26 19:22:13.678 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/26 19:22:20.619 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m| 202.840417ms|   match|[97;44m GET     [0m /v1/user/story   r:/v1/user/story/?:id
+2020/04/26 19:22:23.935 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   2.454245ms|   match|[97;44m GET     [0m /v1/user/story   r:/v1/user/story/?:id
+2020/04/26 19:22:55.176 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/26 19:23:23.626 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/26 19:23:33.193 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/26 19:23:42.340 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/26 19:23:44.594 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   2.737888ms|   match|[97;44m GET     [0m /v1/user/story   r:/v1/user/story/?:id
+2020/04/26 19:23:46.703 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|  29.886246ms|   match|[97;44m GET     [0m /v1/user/story   r:/v1/user/story/?:id
+2020/04/26 19:23:47.828 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   1.012216ms|   match|[97;44m GET     [0m /v1/user/story   r:/v1/user/story/?:id
+2020/04/26 19:23:49.157 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   1.846976ms|   match|[97;44m GET     [0m /v1/user/story   r:/v1/user/story/?:id
+2020/04/26 19:23:50.545 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   1.759416ms|   match|[97;44m GET     [0m /v1/user/story   r:/v1/user/story/?:id
+2020/04/26 19:25:24.909 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/26 19:25:28.654 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|    3.99443ms|   match|[97;44m GET     [0m /v1/user/story   r:/v1/user/story/?:id
+2020/04/26 19:25:29.948 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|    1.54892ms|   match|[97;44m GET     [0m /v1/user/story   r:/v1/user/story/?:id
+2020/04/26 19:25:57.222 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/26 19:26:03.695 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/26 19:26:12.412 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   3.054219ms|   match|[97;44m GET     [0m /v1/user/story   r:/v1/user/story/?:id
+2020/04/26 19:26:13.925 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   2.919246ms|   match|[97;44m GET     [0m /v1/user/story   r:/v1/user/story/?:id
+2020/04/26 19:26:15.172 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   1.403964ms|   match|[97;44m GET     [0m /v1/user/story   r:/v1/user/story/?:id
+2020/04/26 19:26:15.772 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   2.505336ms|   match|[97;44m GET     [0m /v1/user/story   r:/v1/user/story/?:id
+2020/04/26 19:26:16.678 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   1.722443ms|   match|[97;44m GET     [0m /v1/user/story   r:/v1/user/story/?:id
+2020/04/26 19:26:17.591 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|    2.59817ms|   match|[97;44m GET     [0m /v1/user/story   r:/v1/user/story/?:id
+2020/04/26 19:26:18.349 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   2.615388ms|   match|[97;44m GET     [0m /v1/user/story   r:/v1/user/story/?:id
+2020/04/26 19:26:19.162 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   1.317571ms|   match|[97;44m GET     [0m /v1/user/story   r:/v1/user/story/?:id
+2020/04/26 19:26:19.917 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   1.887878ms|   match|[97;44m GET     [0m /v1/user/story   r:/v1/user/story/?:id
+2020/04/26 19:26:31.697 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   1.049316ms|   match|[97;44m GET     [0m /v1/user/story   r:/v1/user/story/?:id
+2020/04/26 19:27:32.575 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/26 19:27:36.291 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m| 190.050013ms|   match|[97;44m GET     [0m /v1/user/story   r:/v1/user/story/?:id
+2020/04/26 19:27:37.660 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   1.516431ms|   match|[97;44m GET     [0m /v1/user/story   r:/v1/user/story/?:id
+2020/04/26 19:27:38.774 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   2.078773ms|   match|[97;44m GET     [0m /v1/user/story   r:/v1/user/story/?:id
+2020/04/26 19:27:39.478 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   2.073001ms|   match|[97;44m GET     [0m /v1/user/story   r:/v1/user/story/?:id
+2020/04/26 19:27:40.368 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   1.477486ms|   match|[97;44m GET     [0m /v1/user/story   r:/v1/user/story/?:id
+2020/04/26 19:28:40.394 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/26 19:30:01.925 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/26 19:30:09.287 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/26 19:30:16.447 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/26 19:30:20.296 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|  88.868666ms|   match|[97;44m GET     [0m /v1/user/story/2   r:/v1/user/story/?:id
+2020/04/26 19:31:59.099 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   1.412389ms|   match|[97;44m GET     [0m /v1/user/story/2   r:/v1/user/story/?:id
+2020/04/26 19:39:00.363 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/26 19:42:59.531 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/26 19:43:04.402 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m| 167.123033ms|   match|[97;44m GET     [0m /v1/user/story/2   r:/v1/user/story/?:id
+2020/04/26 19:43:09.859 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   1.553812ms|   match|[97;44m GET     [0m /v1/user/story   r:/v1/user/story/?:id
+2020/04/26 19:50:05.207 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/26 19:50:26.760 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|  45.268678ms|   match|[97;44m GET     [0m /v1/user/story   r:/v1/user/story/?:id
+2020/04/26 19:50:59.744 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/26 19:51:02.197 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|  17.791974ms|   match|[97;44m GET     [0m /v1/user/story   r:/v1/user/story/?:id
+2020/04/26 19:56:34.277 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/26 20:01:50.639 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/26 20:02:38.071 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/04/26 20:02:49.433 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m| 428.198174ms|   match|[97;41m DELETE  [0m /v1/user/story/1   r:/v1/user/story/?:id
+2020/04/26 20:02:55.516 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   3.329849ms|   match|[97;44m GET     [0m /v1/user/story/2   r:/v1/user/story/?:id
+2020/04/26 20:02:58.949 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   3.262043ms|   match|[97;44m GET     [0m /v1/user/story   r:/v1/user/story/?:id
+2020/04/26 20:03:05.426 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   1.456173ms|   match|[97;41m DELETE  [0m /v1/user/story/6   r:/v1/user/story/?:id
+2020/04/26 20:03:10.654 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   1.541089ms|   match|[97;41m DELETE  [0m /v1/user/story/1   r:/v1/user/story/?:id
+2020/04/26 20:46:54.246 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m| 934.029632ms|   match|[97;46m POST    [0m /v1/user/story/image   r:/v1/user/story/?:id
+2020/04/26 20:47:08.899 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m| 177.404616ms|   match|[97;46m POST    [0m /v1/user/story/image/   r:/v1/user/story/?:id
+2020/04/26 20:48:02.567 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m| 105.152618ms|   match|[97;46m POST    [0m /v1/user/story/image/   r:/v1/user/story/?:id
+2020/12/20 12:21:02.163 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2020/12/20 12:24:02.351 [D] [server.go:2802]  |            ::1|[97;43m 404 [0m|    355.556µs| nomatch|[97;44m GET     [0m /  
+2020/12/20 12:24:02.435 [D] [server.go:2802]  |            ::1|[97;43m 404 [0m|    373.858µs| nomatch|[97;44m GET     [0m /favicon.ico
+2020/12/20 12:24:07.335 [D] [server.go:2802]  |            ::1|[97;43m 404 [0m|    408.644µs| nomatch|[97;44m GET     [0m /  
+2020/12/20 12:24:29.194 [D] [server.go:2802]  |      127.0.0.1|[97;43m 404 [0m|    306.304µs| nomatch|[97;44m GET     [0m /  
+2020/12/20 12:24:29.281 [D] [server.go:2802]  |      127.0.0.1|[97;43m 404 [0m|    458.875µs| nomatch|[97;44m GET     [0m /favicon.ico
+2020/12/20 12:24:32.853 [D] [server.go:2802]  |      127.0.0.1|[97;43m 404 [0m|    318.668µs| nomatch|[97;44m GET     [0m /  
+2020/12/20 12:25:31.615 [D] [server.go:2802]  |      127.0.0.1|[90;47m 302 [0m|      66.53µs|   match|[97;44m GET     [0m /swagger
+2020/12/20 12:25:31.621 [D] [server.go:2802]  |      127.0.0.1|[97;42m 200 [0m|    153.899µs|   match|[97;44m GET     [0m /swagger/
+2020/12/20 12:25:31.653 [D] [server.go:2802]  |      127.0.0.1|[97;42m 200 [0m|     439.53µs|   match|[97;44m GET     [0m /swagger/swagger-ui.css
+2020/12/20 12:25:31.664 [D] [server.go:2802]  |      127.0.0.1|[97;42m 200 [0m|  11.130602ms|   match|[97;44m GET     [0m /swagger/swagger-ui-standalone-preset.js
+2020/12/20 12:25:31.665 [D] [server.go:2802]  |      127.0.0.1|[97;42m 200 [0m|   13.23025ms|   match|[97;44m GET     [0m /swagger/swagger-ui-bundle.js
+2020/12/20 12:25:32.122 [D] [server.go:2802]  |      127.0.0.1|[97;42m 200 [0m|    366.318µs|   match|[97;44m GET     [0m /swagger/swagger.json
+2020/12/20 12:25:32.183 [D] [server.go:2802]  |      127.0.0.1|[97;42m 200 [0m|    166.669µs|   match|[97;44m GET     [0m /swagger/favicon-32x32.png
+2020/12/20 12:26:44.802 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m| 1.461155894s|   match|[97;46m POST    [0m /v1/login   r:/v1/login/
+2020/12/20 12:26:51.896 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   3.330765ms|   match|[97;46m POST    [0m /v1/login   r:/v1/login/
+2020/12/20 12:26:53.145 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   2.620776ms|   match|[97;46m POST    [0m /v1/login   r:/v1/login/
+2020/12/20 12:26:54.052 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|    2.94362ms|   match|[97;46m POST    [0m /v1/login   r:/v1/login/
+2020/12/20 12:26:55.047 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   2.353231ms|   match|[97;46m POST    [0m /v1/login   r:/v1/login/
+2020/12/20 12:26:55.939 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   2.854591ms|   match|[97;46m POST    [0m /v1/login   r:/v1/login/
+2020/12/20 12:26:56.768 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   2.101571ms|   match|[97;46m POST    [0m /v1/login   r:/v1/login/
+2020/12/20 12:26:57.598 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   2.589787ms|   match|[97;46m POST    [0m /v1/login   r:/v1/login/
+2020/12/20 12:27:05.603 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|    804.927µs|   match|[97;46m POST    [0m /v1/login   r:/v1/login/
+2020/12/20 12:27:13.842 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   1.930197ms|   match|[97;46m POST    [0m /v1/login   r:/v1/login/
+2020/12/20 12:27:17.504 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   3.272271ms|   match|[97;46m POST    [0m /v1/login   r:/v1/login/
+2020/12/20 12:27:18.572 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   2.392269ms|   match|[97;46m POST    [0m /v1/login   r:/v1/login/
+2020/12/20 12:27:19.550 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   3.072337ms|   match|[97;46m POST    [0m /v1/login   r:/v1/login/
+2020/12/20 12:27:20.372 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   2.341714ms|   match|[97;46m POST    [0m /v1/login   r:/v1/login/
+2020/12/20 12:27:21.309 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   4.108501ms|   match|[97;46m POST    [0m /v1/login   r:/v1/login/
+2020/12/20 12:27:22.197 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   1.866774ms|   match|[97;46m POST    [0m /v1/login   r:/v1/login/
+2020/12/20 12:27:23.098 [D] [server.go:2802]  |            ::1|[97;42m 200 [0m|   2.581138ms|   match|[97;46m POST    [0m /v1/login   r:/v1/login/
+2021/02/05 18:48:12.974 [I] [asm_amd64.s:1357]  http server Running on http://:8080
+2021/02/13 00:43:01.376 [I] [asm_amd64.s:1357]  http server Running on http://:8080

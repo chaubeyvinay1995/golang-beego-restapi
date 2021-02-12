@@ -1,0 +1,196 @@
+swagger: "2.0"
+info:
+  title: beego Test API
+  description: beego has a very cool tools to auto generate documents for your API
+  version: 1.0.0
+  termsOfService: http://beego.me/
+  contact:
+    email: astaxie@gmail.com
+  license:
+    name: Apache 2.0
+    url: http://www.apache.org/licenses/LICENSE-2.0.html
+basePath: /v1
+paths:
+  /admin/on-boarding/{id}/:
+    delete:
+      tags:
+      - admin/on-boarding/:id
+      description: delete the onBoarding image by Admin
+      operationId: AdminOnBoardingController.delete
+      parameters:
+      - in: body
+        name: body
+        description: The object content
+        required: true
+        schema:
+          $ref: '#/definitions/models.Object'
+      responses:
+        "200":
+          description: '{string} models.Object.Id'
+        "403":
+          description: body is empty
+    patch:
+      tags:
+      - admin/on-boarding/:id
+      description: update the onBoarding image by Admin
+      operationId: AdminOnBoardingController.update
+      parameters:
+      - in: body
+        name: body
+        description: The object content
+        required: true
+        schema:
+          $ref: '#/definitions/models.Object'
+      responses:
+        "200":
+          description: '{string} models.Object.Id'
+        "403":
+          description: body is empty
+  /login/:
+    post:
+      tags:
+      - login
+      description: Login the user
+      operationId: LoginController.create
+      parameters:
+      - in: body
+        name: body
+        description: The object content
+        required: true
+        schema:
+          $ref: '#/definitions/models.Object'
+      responses:
+        "200":
+          description: '{string} models.Object.Id'
+        "403":
+          description: body is empty
+  /on-boarding/:
+    get:
+      tags:
+      - on-boarding
+      description: get the OnBoarding Image
+      operationId: OnBoardingController.get
+      parameters:
+      - in: body
+        name: body
+        description: The object content
+        required: true
+        schema:
+          $ref: '#/definitions/models.Object'
+      responses:
+        "200":
+          description: '{string} models.Object.Id'
+        "403":
+          description: body is empty
+    post:
+      tags:
+      - on-boarding
+      description: add onBoarding Image by Admin
+      operationId: OnBoardingController.create
+      parameters:
+      - in: body
+        name: body
+        description: The object content
+        required: true
+        schema:
+          $ref: '#/definitions/models.Object'
+      responses:
+        "200":
+          description: '{string} models.Object.Id'
+        "403":
+          description: body is empty
+  /signup/:
+    post:
+      tags:
+      - signup
+      description: register user object
+      operationId: RegisterController.create
+      parameters:
+      - in: body
+        name: body
+        description: The object content
+        required: true
+        schema:
+          $ref: '#/definitions/models.Object'
+      responses:
+        "200":
+          description: '{string} models.Object.Id'
+        "403":
+          description: body is empty
+  /user/{id}/:
+    get:
+      tags:
+      - user/:id
+      description: Get user details
+      operationId: UserDetailController.create
+      parameters:
+      - in: body
+        name: body
+        description: The object content
+        required: true
+        schema:
+          $ref: '#/definitions/models.Object'
+      responses:
+        "200":
+          description: '{string} models.Object.Id'
+        "403":
+          description: body is empty
+    delete:
+      tags:
+      - user/:id
+      description: delete the user
+      operationId: UserDetailController.create
+      parameters:
+      - in: body
+        name: body
+        description: The object content
+        required: true
+        schema:
+          $ref: '#/definitions/models.Object'
+      responses:
+        "200":
+          description: '{string} models.Object.Id'
+        "403":
+          description: body is empty
+    patch:
+      tags:
+      - user/:id
+      description: update user detail
+      operationId: UserDetailController.update
+      parameters:
+      - in: body
+        name: body
+        description: The object content
+        required: true
+        schema:
+          $ref: '#/definitions/models.Object'
+      responses:
+        "200":
+          description: '{string} models.Object.Id'
+        "403":
+          description: body is empty
+definitions:
+  models.Object:
+    title: Object
+    type: object
+    properties:
+      ObjectId:
+        type: string
+      PlayerName:
+        type: string
+      Score:
+        type: integer
+        format: int64
+tags:
+- name: on-boarding
+  description: |
+    Operation about OnBoarding
+- name: signup
+  description: |
+    Initiate the Controller
+- name: login
+  description: |
+    Initiate the Controller
+- name: user/:id
+  description: |
+    Initiate the Controller
